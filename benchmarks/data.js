@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1657359405980,
+  "lastUpdate": 1657631072174,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -45225,6 +45225,54 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/marcalff/opentelemetry-cpp/commit/4762910eab78d58a89ee5721c60c2139f91b3836"
         },
         "date": 1657359385727,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 108.32579367333457,
+            "unit": "ns/iter",
+            "extra": "iterations: 1298000\ncpu: 107.74483821263485 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 152.6769105490152,
+            "unit": "ns/iter",
+            "extra": "iterations: 924000\ncpu: 151.3088744588745 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 549.6731100156326,
+            "unit": "ns/iter",
+            "extra": "iterations: 258000\ncpu: 548.3007751937984 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1890037.7997036637,
+            "unit": "ns/iter",
+            "extra": "iterations: 435\ncpu: 334834.71264367807 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "labhas@microsoft.com",
+            "name": "Lalit Kumar Bhasin",
+            "username": "lalitb"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "801ebba8ef6eea8473717fb1cd9bb425c6b55dce",
+          "message": "Enable bazel build for metrics proto files (#1489)\n\n* enable bazel build for metrics proto\r\n\r\n* error",
+          "timestamp": "2022-07-11T18:51:15-07:00",
+          "tree_id": "cca0f497eb5e3623e43749e092fdb3f80a0f86b9",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/801ebba8ef6eea8473717fb1cd9bb425c6b55dce"
+        },
+        "date": 1657631070288,
         "tool": "googlecpp",
         "benches": [
           {
