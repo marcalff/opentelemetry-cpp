@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1657878310159,
+  "lastUpdate": 1658509851883,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -45994,6 +45994,54 @@ window.BENCHMARK_DATA = {
             "value": 1890037.7997036637,
             "unit": "ns/iter",
             "extra": "iterations: 435\ncpu: 334834.71264367807 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "wangzhen2271@sina.com",
+            "name": "wangzhen2271",
+            "username": "wangzhen2271"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a77ec80312695eaa6100def024e129fd3c2f25ab",
+          "message": "fix: urlPaser will incorrect parsing url like http://abc.com/xxx@xxx/a/b (#1511)\n\nCo-authored-by: Lalit Kumar Bhasin <labhas@microsoft.com>",
+          "timestamp": "2022-07-22T08:53:34-07:00",
+          "tree_id": "b1c02506ff4659fc3360a7f85cbbda643e9d7e63",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/a77ec80312695eaa6100def024e129fd3c2f25ab"
+        },
+        "date": 1658509850055,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 133.0312819388713,
+            "unit": "ns/iter",
+            "extra": "iterations: 1138000\ncpu: 123.14912126537786 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 177.6486300350575,
+            "unit": "ns/iter",
+            "extra": "iterations: 801000\ncpu: 171.98988764044947 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 659.88163615382,
+            "unit": "ns/iter",
+            "extra": "iterations: 215000\ncpu: 658.4586046511628 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 2459144.0426169625,
+            "unit": "ns/iter",
+            "extra": "iterations: 347\ncpu: 390991.93083573476 ns\nthreads: 1"
           }
         ]
       }
