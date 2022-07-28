@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1658509858294,
+  "lastUpdate": 1658994116439,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -40333,6 +40333,156 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/marcalff/opentelemetry-cpp/commit/a77ec80312695eaa6100def024e129fd3c2f25ab"
         },
         "date": 1658509854133,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_AttributseHashMap",
+            "value": 19591490.427652996,
+            "unit": "ns/iter",
+            "extra": "iterations: 9\ncpu: 14444177.777777776 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AttributseProcessorFilter",
+            "value": 206.64517072784818,
+            "unit": "ns/iter",
+            "extra": "iterations: 696975\ncpu: 200.2490763657233 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AlwaysOffSamplerConstruction",
+            "value": 1.9532153621481168,
+            "unit": "ns/iter",
+            "extra": "iterations: 85200648\ncpu: 1.6290110845166341 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AlwaysOnSamplerConstruction",
+            "value": 1.6964020963558466,
+            "unit": "ns/iter",
+            "extra": "iterations: 85232288\ncpu: 1.628161149446088 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_ParentBasedSamplerConstruction",
+            "value": 89.30516498242035,
+            "unit": "ns/iter",
+            "extra": "iterations: 1652559\ncpu: 86.23534772434755 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_TraceIdRatioBasedSamplerConstruction",
+            "value": 332.3596241584684,
+            "unit": "ns/iter",
+            "extra": "iterations: 416969\ncpu: 330.71451354896885 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AlwaysOffSamplerShouldSample",
+            "value": 37.97959002628068,
+            "unit": "ns/iter",
+            "extra": "iterations: 3763815\ncpu: 37.2046978929623 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AlwaysOnSamplerShouldSample",
+            "value": 43.335076115683194,
+            "unit": "ns/iter",
+            "extra": "iterations: 3666380\ncpu: 37.29245195533466 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_ParentBasedSamplerShouldSample",
+            "value": 45.54040085137537,
+            "unit": "ns/iter",
+            "extra": "iterations: 3475394\ncpu: 40.24363856299458 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_TraceIdRatioBasedSamplerShouldSample",
+            "value": 20.49566990259529,
+            "unit": "ns/iter",
+            "extra": "iterations: 6852097\ncpu: 20.420551547942175 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_SpanCreation",
+            "value": 785.4822393083118,
+            "unit": "ns/iter",
+            "extra": "iterations: 177969\ncpu: 784.7906096005479 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_NoopSpanCreation",
+            "value": 832.2232019852944,
+            "unit": "ns/iter",
+            "extra": "iterations: 177339\ncpu: 783.7700674978427 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AttributeMapHash",
+            "value": 166.67306484250508,
+            "unit": "ns/iter",
+            "extra": "iterations: 845314\ncpu: 166.29560139782376 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_RandomIdGeneration",
+            "value": 2.5475715027661865,
+            "unit": "ns/iter",
+            "extra": "iterations: 55981638\ncpu: 2.500151924815062 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_RandomIdStdGeneration",
+            "value": 8.237963781306652,
+            "unit": "ns/iter",
+            "extra": "iterations: 18737068\ncpu: 7.481949683909992 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_BaselineBuffer/1",
+            "value": 1458506.1073303223,
+            "unit": "ns/iter",
+            "extra": "iterations: 1000\ncpu: 28352.400000000005 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_BaselineBuffer/2",
+            "value": 3231497.3492776193,
+            "unit": "ns/iter",
+            "extra": "iterations: 620\ncpu: 206137.5806451613 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_BaselineBuffer/4",
+            "value": 5111608.505249023,
+            "unit": "ns/iter",
+            "extra": "iterations: 100\ncpu: 445736.00000000023 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_LockFreeBuffer/1",
+            "value": 608965.3968811035,
+            "unit": "ns/iter",
+            "extra": "iterations: 1000\ncpu: 26644.19999999998 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_LockFreeBuffer/2",
+            "value": 1581579.4884741723,
+            "unit": "ns/iter",
+            "extra": "iterations: 715\ncpu: 186497.2027972028 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_LockFreeBuffer/4",
+            "value": 2720168.9409287595,
+            "unit": "ns/iter",
+            "extra": "iterations: 362\ncpu: 232477.9005524863 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "astitcher@apache.org",
+            "name": "Andrew Stitcher",
+            "username": "astitcher"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3a8f913de52c19868e2d325cc17b5d62e0d4fd4e",
+          "message": "Don't require applications using jaeger exporter to know about libcurl (#1518)",
+          "timestamp": "2022-07-26T21:03:46+02:00",
+          "tree_id": "55c6b512b2275a61db0825ebd4571e76cbb4336b",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/3a8f913de52c19868e2d325cc17b5d62e0d4fd4e"
+        },
+        "date": 1658994113987,
         "tool": "googlecpp",
         "benches": [
           {
