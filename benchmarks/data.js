@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697019745982,
+  "lastUpdate": 1697019767074,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -54916,6 +54916,54 @@ window.BENCHMARK_DATA = {
             "value": 3619729.303846172,
             "unit": "ns/iter",
             "extra": "iterations: 204\ncpu: 747609.3137254899 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marc.alff@oracle.com",
+            "name": "Marc Alff",
+            "username": "marcalff"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "df96b7429a635349ec5aa355716548ce4f184d90",
+          "message": "[BUILD] Upgrade libcurl to version 8.4.0 (#2358)",
+          "timestamp": "2023-10-11T11:17:26+02:00",
+          "tree_id": "2e515a584f19fda84193dc34b84bcbadef14a92e",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/df96b7429a635349ec5aa355716548ce4f184d90"
+        },
+        "date": 1697019763905,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 35.23846930778203,
+            "unit": "ns/iter",
+            "extra": "iterations: 3987000\ncpu: 35.05665914221219 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 128.7097895975078,
+            "unit": "ns/iter",
+            "extra": "iterations: 1092000\ncpu: 127.74020146520147 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 885.5310286053959,
+            "unit": "ns/iter",
+            "extra": "iterations: 161000\ncpu: 873.6527950310556 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1776227.2994710791,
+            "unit": "ns/iter",
+            "extra": "iterations: 322\ncpu: 394238.8198757765 ns\nthreads: 1"
           }
         ]
       }
