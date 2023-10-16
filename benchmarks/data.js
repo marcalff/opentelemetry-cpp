@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697443022540,
+  "lastUpdate": 1697443030831,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -55930,6 +55930,54 @@ window.BENCHMARK_DATA = {
             "value": 1652768.6371310833,
             "unit": "ns/iter",
             "extra": "iterations: 397\ncpu: 389642.0654911839 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marc.alff@oracle.com",
+            "name": "Marc Alff",
+            "username": "marcalff"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f2cbf02ec167729cedb177f4b85133121513a796",
+          "message": "[SEMANTIC CONVENTION] Upgrade to semconv 1.22.0 (#2368)",
+          "timestamp": "2023-10-16T09:38:30+02:00",
+          "tree_id": "561437b6cea8ac7f11be34033c8dc5730faa02df",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/f2cbf02ec167729cedb177f4b85133121513a796"
+        },
+        "date": 1697443023800,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 30.425441912898616,
+            "unit": "ns/iter",
+            "extra": "iterations: 4619000\ncpu: 30.135072526520887 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 120.3543287382748,
+            "unit": "ns/iter",
+            "extra": "iterations: 1211000\ncpu: 114.79083402146989 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 776.2607637342516,
+            "unit": "ns/iter",
+            "extra": "iterations: 182000\ncpu: 771.9675824175828 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 2048719.5177095681,
+            "unit": "ns/iter",
+            "extra": "iterations: 547\ncpu: 423186.28884826315 ns\nthreads: 1"
           }
         ]
       }
