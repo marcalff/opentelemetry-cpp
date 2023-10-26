@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698085552046,
+  "lastUpdate": 1698341576837,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -57658,6 +57658,54 @@ window.BENCHMARK_DATA = {
             "value": 1235778.1728108723,
             "unit": "ns/iter",
             "extra": "iterations: 375\ncpu: 349769.06666666677 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jafonso@users.noreply.github.com",
+            "name": "jafonso",
+            "username": "jafonso"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d3a873a673809875595aaf98615b8a1a1fc501db",
+          "message": "[BUILD] Fix cpack broken package version (#2386)",
+          "timestamp": "2023-10-25T20:33:21+02:00",
+          "tree_id": "aa61fca031c055a6ceb179f8ca478f4450307167",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/d3a873a673809875595aaf98615b8a1a1fc501db"
+        },
+        "date": 1698341574049,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 41.06776910192906,
+            "unit": "ns/iter",
+            "extra": "iterations: 2824000\ncpu: 40.64808781869689 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 144.18393107660935,
+            "unit": "ns/iter",
+            "extra": "iterations: 1009000\ncpu: 140.77502477700693 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 955.990144422838,
+            "unit": "ns/iter",
+            "extra": "iterations: 143000\ncpu: 951.3202797202802 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 3161599.4193337183,
+            "unit": "ns/iter",
+            "extra": "iterations: 220\ncpu: 653025.9090909091 ns\nthreads: 1"
           }
         ]
       }
