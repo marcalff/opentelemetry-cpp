@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698505606948,
+  "lastUpdate": 1698842751036,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -58498,6 +58498,54 @@ window.BENCHMARK_DATA = {
             "value": 1794200.1351791634,
             "unit": "ns/iter",
             "extra": "iterations: 423\ncpu: 395219.38534278946 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "140232061+perhapsmaple@users.noreply.github.com",
+            "name": "Harish Shan",
+            "username": "perhapsmaple"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ca08c5a34ad4af1b6b392c8bf5fc26a5210a2f2c",
+          "message": "[BUILD] Fix exported definitions when building DLL with STL (#2387)",
+          "timestamp": "2023-10-31T22:42:53-07:00",
+          "tree_id": "9c70c9ca11a6e691bd2c3f715d4eb9dc2e2f3e52",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/ca08c5a34ad4af1b6b392c8bf5fc26a5210a2f2c"
+        },
+        "date": 1698842748050,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 41.717855629607286,
+            "unit": "ns/iter",
+            "extra": "iterations: 3314000\ncpu: 41.71188895594448 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 140.89907049456707,
+            "unit": "ns/iter",
+            "extra": "iterations: 1058000\ncpu: 140.1716446124764 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 979.384860476932,
+            "unit": "ns/iter",
+            "extra": "iterations: 148000\ncpu: 977.9 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 2197623.2528686523,
+            "unit": "ns/iter",
+            "extra": "iterations: 228\ncpu: 563307.4561403509 ns\nthreads: 1"
           }
         ]
       }
