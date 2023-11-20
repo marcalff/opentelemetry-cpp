@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699699778570,
+  "lastUpdate": 1700498642242,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -60178,6 +60178,54 @@ window.BENCHMARK_DATA = {
             "value": 1999682.0426568752,
             "unit": "ns/iter",
             "extra": "iterations: 328\ncpu: 393999.6951219514 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cb603ad97f33e52340e627e1cb43ba73bb1d7ef0",
+          "message": "Bump actions/github-script from 6 to 7 (#2403)\n\nBumps [actions/github-script](https://github.com/actions/github-script) from 6 to 7.\r\n- [Release notes](https://github.com/actions/github-script/releases)\r\n- [Commits](https://github.com/actions/github-script/compare/v6...v7)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: actions/github-script\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2023-11-16T21:53:05-08:00",
+          "tree_id": "69dff0ce6424e5b9523c00270e1f16448797d2c2",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/cb603ad97f33e52340e627e1cb43ba73bb1d7ef0"
+        },
+        "date": 1700498639383,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 45.856197228592436,
+            "unit": "ns/iter",
+            "extra": "iterations: 3115000\ncpu: 45.71717495987159 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 175.15627382377306,
+            "unit": "ns/iter",
+            "extra": "iterations: 791000\ncpu: 175.0155499367889 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 1130.815566055418,
+            "unit": "ns/iter",
+            "extra": "iterations: 127000\ncpu: 1127.9787401574802 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 2223291.494740561,
+            "unit": "ns/iter",
+            "extra": "iterations: 293\ncpu: 466523.5494880547 ns\nthreads: 1"
           }
         ]
       }
