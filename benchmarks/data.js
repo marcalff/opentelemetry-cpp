@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700671098858,
+  "lastUpdate": 1700671110477,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -60795,6 +60795,54 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/marcalff/opentelemetry-cpp/commit/cb603ad97f33e52340e627e1cb43ba73bb1d7ef0"
         },
         "date": 1700498639383,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 45.856197228592436,
+            "unit": "ns/iter",
+            "extra": "iterations: 3115000\ncpu: 45.71717495987159 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 175.15627382377306,
+            "unit": "ns/iter",
+            "extra": "iterations: 791000\ncpu: 175.0155499367889 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 1130.815566055418,
+            "unit": "ns/iter",
+            "extra": "iterations: 127000\ncpu: 1127.9787401574802 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 2223291.494740561,
+            "unit": "ns/iter",
+            "extra": "iterations: 293\ncpu: 466523.5494880547 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "71217171+esigo@users.noreply.github.com",
+            "name": "Ehsan Saei",
+            "username": "esigo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "71d0e50b12769375e0d84bbcfdf78f9b69a02dff",
+          "message": "[EXPORTER] Prometheus: Add unit to names, convert to word (#2213)",
+          "timestamp": "2023-11-22T17:26:14+01:00",
+          "tree_id": "c1f9f6cf179d42e4e297fb6c8230b5ed2876c388",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/71d0e50b12769375e0d84bbcfdf78f9b69a02dff"
+        },
+        "date": 1700671108102,
         "tool": "googlecpp",
         "benches": [
           {
