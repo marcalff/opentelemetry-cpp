@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701333317285,
+  "lastUpdate": 1701333322884,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -61239,6 +61239,54 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/marcalff/opentelemetry-cpp/commit/71d0e50b12769375e0d84bbcfdf78f9b69a02dff"
         },
         "date": 1700671108102,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 45.856197228592436,
+            "unit": "ns/iter",
+            "extra": "iterations: 3115000\ncpu: 45.71717495987159 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 175.15627382377306,
+            "unit": "ns/iter",
+            "extra": "iterations: 791000\ncpu: 175.0155499367889 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 1130.815566055418,
+            "unit": "ns/iter",
+            "extra": "iterations: 127000\ncpu: 1127.9787401574802 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 2223291.494740561,
+            "unit": "ns/iter",
+            "extra": "iterations: 293\ncpu: 466523.5494880547 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Tom.Tan@microsoft.com",
+            "name": "Tom Tan",
+            "username": "ThomsonTan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "064fef0d871c57ffac6739d3311659a5770a9db4",
+          "message": "[Metrics] Make context optional for histogram instruments in Metrics SDK (#2416)",
+          "timestamp": "2023-11-29T09:45:09-08:00",
+          "tree_id": "ea8a61e32c74d1866d0027bcd524f53d73003de6",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/064fef0d871c57ffac6739d3311659a5770a9db4"
+        },
+        "date": 1701333319716,
         "tool": "googlecpp",
         "benches": [
           {
