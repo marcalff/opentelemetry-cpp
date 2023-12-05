@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701333334359,
+  "lastUpdate": 1701741490503,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -61510,6 +61510,54 @@ window.BENCHMARK_DATA = {
             "value": 2223291.494740561,
             "unit": "ns/iter",
             "extra": "iterations: 293\ncpu: 466523.5494880547 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Tom.Tan@microsoft.com",
+            "name": "Tom Tan",
+            "username": "ThomsonTan"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "abad83d03ea5d936be166faf069d1d91002236e7",
+          "message": "[BUILD] Remove defining NOMINMAX from api (#2420)",
+          "timestamp": "2023-12-02T03:46:18-08:00",
+          "tree_id": "cb1fb10732cd83105bd4a3f371d8af3b5d42b296",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/abad83d03ea5d936be166faf069d1d91002236e7"
+        },
+        "date": 1701741487271,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 46.10827134567639,
+            "unit": "ns/iter",
+            "extra": "iterations: 3142000\ncpu: 44.37383831954169 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 166.06953127164368,
+            "unit": "ns/iter",
+            "extra": "iterations: 846000\ncpu: 165.86962174940902 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 1197.5802774504414,
+            "unit": "ns/iter",
+            "extra": "iterations: 127000\ncpu: 1106.7653543307083 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1913101.5701547414,
+            "unit": "ns/iter",
+            "extra": "iterations: 301\ncpu: 436021.5946843855 ns\nthreads: 1"
           }
         ]
       }
