@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702419674897,
+  "lastUpdate": 1702932601924,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -64618,6 +64618,54 @@ window.BENCHMARK_DATA = {
             "value": 2041833.0062207559,
             "unit": "ns/iter",
             "extra": "iterations: 278\ncpu: 461666.5467625897 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "timwoj@gmail.com",
+            "name": "Tim Wojtulewicz",
+            "username": "timwoj"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e8afbb8eac5bd2abb96643c36bef5818a416dbea",
+          "message": "[EXPORTER] Add option to disable Prometheus otel_scope_name and otel_scope_version attributes (#2451)",
+          "timestamp": "2023-12-16T17:37:13+01:00",
+          "tree_id": "b35e7f686d7588d0e730e44e06aaff114c5065e0",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/e8afbb8eac5bd2abb96643c36bef5818a416dbea"
+        },
+        "date": 1702932599124,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 40.80370633317152,
+            "unit": "ns/iter",
+            "extra": "iterations: 3430000\ncpu: 40.78763848396501 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 160.02067073977372,
+            "unit": "ns/iter",
+            "extra": "iterations: 884000\ncpu: 159.57002262443442 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 1118.4939631709346,
+            "unit": "ns/iter",
+            "extra": "iterations: 135000\ncpu: 1038.8814814814814 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 2094610.2377809123,
+            "unit": "ns/iter",
+            "extra": "iterations: 324\ncpu: 483400.92592592584 ns\nthreads: 1"
           }
         ]
       }
