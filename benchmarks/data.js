@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705957532975,
+  "lastUpdate": 1705957537600,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -66321,6 +66321,54 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/marcalff/opentelemetry-cpp/commit/423ecacdf62196731d888621e0dfa2e8cc023b4a"
         },
         "date": 1705449738638,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 22.60362196815996,
+            "unit": "ns/iter",
+            "extra": "iterations: 6190000\ncpu: 22.598756058158326 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 93.69404516487478,
+            "unit": "ns/iter",
+            "extra": "iterations: 1498000\ncpu: 93.68918558077439 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 652.8204342104355,
+            "unit": "ns/iter",
+            "extra": "iterations: 212000\ncpu: 652.8306603773583 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1536067.4477348763,
+            "unit": "ns/iter",
+            "extra": "iterations: 263\ncpu: 524679.0874524714 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "soeren@lambda-complex.org",
+            "name": "Sören Bohn",
+            "username": "S-Bohn"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "02b984abf55adcfc6c546a9f5a5c59f61750d95f",
+          "message": "[DOCUMENTATION] Add api reference documentation for logs (#2497)\n\n* Remove superfluous slash and bring input in lexicographic order.\r\n\r\n* Add logs to generated Doxygen documentation.\r\n\r\n---------\r\n\r\nCo-authored-by: Marc Alff <marc.alff@oracle.com>",
+          "timestamp": "2024-01-21T11:20:55-08:00",
+          "tree_id": "8085e25f105b998cc46fa690fbc75a526f114fe4",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/02b984abf55adcfc6c546a9f5a5c59f61750d95f"
+        },
+        "date": 1705957533380,
         "tool": "googlecpp",
         "benches": [
           {
