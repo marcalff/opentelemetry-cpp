@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706567118245,
+  "lastUpdate": 1706567133587,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -66567,6 +66567,54 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/marcalff/opentelemetry-cpp/commit/02b984abf55adcfc6c546a9f5a5c59f61750d95f"
         },
         "date": 1705957533380,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 22.60362196815996,
+            "unit": "ns/iter",
+            "extra": "iterations: 6190000\ncpu: 22.598756058158326 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 93.69404516487478,
+            "unit": "ns/iter",
+            "extra": "iterations: 1498000\ncpu: 93.68918558077439 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 652.8204342104355,
+            "unit": "ns/iter",
+            "extra": "iterations: 212000\ncpu: 652.8306603773583 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1536067.4477348763,
+            "unit": "ns/iter",
+            "extra": "iterations: 263\ncpu: 524679.0874524714 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "emmanuel.courreges@orange.com",
+            "name": "Emmanuel Courreges",
+            "username": "ecourreges-orange"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7cc781e654b40c1e0400a5ea9dccde4d44a6977c",
+          "message": "[API] Propagators: do not overwrite the active span with a default invalid span (#2511)",
+          "timestamp": "2024-01-29T22:59:29+01:00",
+          "tree_id": "fb1d9b189920d430b9bda74001c7d4de773574ca",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/7cc781e654b40c1e0400a5ea9dccde4d44a6977c"
+        },
+        "date": 1706567130330,
         "tool": "googlecpp",
         "benches": [
           {
