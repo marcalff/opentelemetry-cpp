@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708722161027,
+  "lastUpdate": 1708722168858,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -69010,6 +69010,54 @@ window.BENCHMARK_DATA = {
             "value": 2329745.5212841295,
             "unit": "ns/iter",
             "extra": "iterations: 292\ncpu: 480180.8219178083 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dbolduc@google.com",
+            "name": "Darren Bolduc",
+            "username": "dbolduc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "75f34e60a30a007f75fa21d806ab1d40fa8af843",
+          "message": "[SDK] Restore Recordable API compatibility with versions < 1.14.0 (#2547)",
+          "timestamp": "2024-02-23T21:35:22+01:00",
+          "tree_id": "01a9236dc7cd22af02f1a68aca4d4a7537e6c10d",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/75f34e60a30a007f75fa21d806ab1d40fa8af843"
+        },
+        "date": 1708722164710,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 23.23179509681849,
+            "unit": "ns/iter",
+            "extra": "iterations: 5945000\ncpu: 23.231925988225395 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 102.08654403686523,
+            "unit": "ns/iter",
+            "extra": "iterations: 1000000\ncpu: 102.08719999999998 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 640.6089486596791,
+            "unit": "ns/iter",
+            "extra": "iterations: 219000\ncpu: 640.608675799087 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1583387.6491372103,
+            "unit": "ns/iter",
+            "extra": "iterations: 306\ncpu: 454052.9411764705 ns\nthreads: 1"
           }
         ]
       }
