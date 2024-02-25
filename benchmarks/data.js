@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708894653463,
+  "lastUpdate": 1708894660834,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -69454,6 +69454,54 @@ window.BENCHMARK_DATA = {
             "value": 1583387.6491372103,
             "unit": "ns/iter",
             "extra": "iterations: 306\ncpu: 454052.9411764705 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marc.alff@oracle.com",
+            "name": "Marc Alff",
+            "username": "marcalff"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "563094b6832532cde38f4665eff957420317bc6f",
+          "message": "[RELEASE] Release opentelemetry-cpp version 1.14.1 (#2551)",
+          "timestamp": "2024-02-23T22:47:57+01:00",
+          "tree_id": "2e1280b85140899a77a988effdd06c5802efdf54",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/563094b6832532cde38f4665eff957420317bc6f"
+        },
+        "date": 1708894656582,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 46.78324700045795,
+            "unit": "ns/iter",
+            "extra": "iterations: 2962000\ncpu: 46.417015530047266 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 179.20577269890515,
+            "unit": "ns/iter",
+            "extra": "iterations: 791000\ncpu: 177.81188369152972 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 1132.1099336482278,
+            "unit": "ns/iter",
+            "extra": "iterations: 121000\ncpu: 1130.6958677685955 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1962158.1362004867,
+            "unit": "ns/iter",
+            "extra": "iterations: 285\ncpu: 502366.31578947377 ns\nthreads: 1"
           }
         ]
       }
