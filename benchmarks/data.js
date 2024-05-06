@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714424224071,
+  "lastUpdate": 1715032038547,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -73029,6 +73029,54 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/marcalff/opentelemetry-cpp/commit/2d077f8ec5315e0979a236554c81f621eb61f5b3"
         },
         "date": 1714424203045,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 45.81482689204537,
+            "unit": "ns/iter",
+            "extra": "iterations: 3019000\ncpu: 45.5966902947996 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 190.53658049310272,
+            "unit": "ns/iter",
+            "extra": "iterations: 796000\ncpu: 173.2983153266332 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 1145.0873046624856,
+            "unit": "ns/iter",
+            "extra": "iterations: 122000\ncpu: 1144.9083196721313 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 2114310.7518662503,
+            "unit": "ns/iter",
+            "extra": "iterations: 274\ncpu: 472907.6861313866 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "owentou@tencent.com",
+            "name": "WenTao Ou",
+            "username": "owent"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "da8e377be51edadad514d31c58e0ce7a2eb1b05e",
+          "message": "[BUILD] Link CoreFoundation on apple systems because some dependency packages require it. (#2655)",
+          "timestamp": "2024-05-06T11:44:17+02:00",
+          "tree_id": "118a607553284bea249aa2dc4ac9f3a20bf15deb",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/da8e377be51edadad514d31c58e0ce7a2eb1b05e"
+        },
+        "date": 1715032035295,
         "tool": "googlecpp",
         "benches": [
           {
