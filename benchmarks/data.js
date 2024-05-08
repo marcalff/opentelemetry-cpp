@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715174065963,
+  "lastUpdate": 1715174125278,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -73869,6 +73869,54 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/marcalff/opentelemetry-cpp/commit/da8e377be51edadad514d31c58e0ce7a2eb1b05e"
         },
         "date": 1715032035295,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 45.81482689204537,
+            "unit": "ns/iter",
+            "extra": "iterations: 3019000\ncpu: 45.5966902947996 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 190.53658049310272,
+            "unit": "ns/iter",
+            "extra": "iterations: 796000\ncpu: 173.2983153266332 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 1145.0873046624856,
+            "unit": "ns/iter",
+            "extra": "iterations: 122000\ncpu: 1144.9083196721313 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 2114310.7518662503,
+            "unit": "ns/iter",
+            "extra": "iterations: 274\ncpu: 472907.6861313866 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rashid.kaleem@gmail.com",
+            "name": "Rashid Kaleem",
+            "username": "arekay"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4f32bc6f296a186f689f5b8c2cd91899e139dcea",
+          "message": "[SDK] Avoid missing conditional variable update and simplify atomic bool (#2553)\n\n\r\nAddresses two issues -\r\n1. Fix the use of a conditional variable where a wait on the variable might not be in flight when a notify is called. This is fixed by ensuring that an associated lock is aquired before calling the notify.\r\n2. Instead of relying on a lock an a boolean, replace the use wit a single atomic boolean.\r\n\r\n---------\r\n\r\nCo-authored-by: Ehsan Saei <71217171+esigo@users.noreply.github.com>\r\nCo-authored-by: Marc Alff <marc.alff@oracle.com>\r\nCo-authored-by: Marc Alff <marc.alff@free.fr>",
+          "timestamp": "2024-05-08T14:44:46+02:00",
+          "tree_id": "3d07d44deb875a238ce3a18597fc645d53c8931e",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/4f32bc6f296a186f689f5b8c2cd91899e139dcea"
+        },
+        "date": 1715174121681,
         "tool": "googlecpp",
         "benches": [
           {
