@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715892374860,
+  "lastUpdate": 1715892388288,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -74782,6 +74782,54 @@ window.BENCHMARK_DATA = {
             "value": 1517698.3289821174,
             "unit": "ns/iter",
             "extra": "iterations: 279\ncpu: 503696.79569892486 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marc.alff@oracle.com",
+            "name": "Marc Alff",
+            "username": "marcalff"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "9c767df50754a0066f57b6a0add1656669a0ee1c",
+          "message": "[API] Return NoopLogRecord from NoopLogger (#2668)\n\n\r\nCo-authored-by: Yuri Shkuro <yurishkuro@users.noreply.github.com>",
+          "timestamp": "2024-05-16T21:48:14+02:00",
+          "tree_id": "396c43bd62e01aa1a9678162f645003ec6b445f5",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/9c767df50754a0066f57b6a0add1656669a0ee1c"
+        },
+        "date": 1715892385491,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 46.69522786832603,
+            "unit": "ns/iter",
+            "extra": "iterations: 3479000\ncpu: 46.579740155217024 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 178.24172973632812,
+            "unit": "ns/iter",
+            "extra": "iterations: 785000\ncpu: 173.99918980891724 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 1171.5810807024845,
+            "unit": "ns/iter",
+            "extra": "iterations: 122000\ncpu: 1167.9221639344262 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 2069912.5036971115,
+            "unit": "ns/iter",
+            "extra": "iterations: 279\ncpu: 504605.4910394268 ns\nthreads: 1"
           }
         ]
       }
