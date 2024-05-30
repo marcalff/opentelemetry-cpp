@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717103593181,
+  "lastUpdate": 1717103682254,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -75916,6 +75916,54 @@ window.BENCHMARK_DATA = {
             "value": 2102822.573925448,
             "unit": "ns/iter",
             "extra": "iterations: 293\ncpu: 450833.614334471 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lalit_fin@yahoo.com",
+            "name": "Lalit Kumar Bhasin",
+            "username": "lalitb"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "c5269cd1d2a8e6295abd175bae6e0d528a97dd1a",
+          "message": "[CI] Fix CI failures on Ubuntu 24.04 (#2686)",
+          "timestamp": "2024-05-30T22:41:04+02:00",
+          "tree_id": "3babf5ac21f91fbc7aefd9d0e2cc45478d77036a",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/c5269cd1d2a8e6295abd175bae6e0d528a97dd1a"
+        },
+        "date": 1717103679406,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 47.04314638756486,
+            "unit": "ns/iter",
+            "extra": "iterations: 2972000\ncpu: 46.689851615074026 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 176.57286058136026,
+            "unit": "ns/iter",
+            "extra": "iterations: 783000\ncpu: 174.71345466155807 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 1155.9261763391416,
+            "unit": "ns/iter",
+            "extra": "iterations: 121000\ncpu: 1147.1495041322312 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 2250103.932905021,
+            "unit": "ns/iter",
+            "extra": "iterations: 271\ncpu: 477821.2583025829 ns\nthreads: 1"
           }
         ]
       }
