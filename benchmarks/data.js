@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717787439708,
+  "lastUpdate": 1717787452470,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -77002,6 +77002,54 @@ window.BENCHMARK_DATA = {
             "value": 2354190.2673655543,
             "unit": "ns/iter",
             "extra": "iterations: 290\ncpu: 504040.1103448274 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "t-b@users.noreply.github.com",
+            "name": "Thomas Braun",
+            "username": "t-b"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "436a981d81c1094c66b7e647b5380f23c099efed",
+          "message": "CMakeLists.txt: Enable CMAKE_MSVC_RUNTIME_LIBRARY support (#2652)\n\nThe documentation for CMAKE_MSVC_RUNTIME_LIBRARY states [1]:\r\n\r\n> This variable has effect only when policy CMP0091 is set to NEW prior to\r\n> the first project() or enable_language() command that enables a language\r\n> using a compiler targeting the MSVC ABI.\r\n\r\nso the current usage of CMAKE_MSVC_RUNTIME_LIBRARY for vcpkg does not work\r\nat all.\r\n\r\nLet's fix that by setting policy 91 to new if present.\r\n\r\n[1]: https://cmake.org/cmake/help/latest/variable/CMAKE_MSVC_RUNTIME_LIBRARY.html\r\n\r\nCo-authored-by: Tom Tan <Tom.Tan@microsoft.com>",
+          "timestamp": "2024-06-06T19:34:47+02:00",
+          "tree_id": "db7558e9aad66722a33e41d7fcdd5e44e5fbf45c",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/436a981d81c1094c66b7e647b5380f23c099efed"
+        },
+        "date": 1717787449462,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 24.058018283630663,
+            "unit": "ns/iter",
+            "extra": "iterations: 4381000\ncpu: 24.05842296279388 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 93.64131924948798,
+            "unit": "ns/iter",
+            "extra": "iterations: 1501000\ncpu: 93.6185649566955 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 648.5214137067699,
+            "unit": "ns/iter",
+            "extra": "iterations: 198000\ncpu: 648.5332474747472 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1708496.6626083641,
+            "unit": "ns/iter",
+            "extra": "iterations: 285\ncpu: 498108.74736842135 ns\nthreads: 1"
           }
         ]
       }
