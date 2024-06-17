@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718230567136,
+  "lastUpdate": 1718657182352,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -77494,6 +77494,54 @@ window.BENCHMARK_DATA = {
             "value": 1639161.0474565665,
             "unit": "ns/iter",
             "extra": "iterations: 229\ncpu: 616136.5240174669 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yijiem@google.com",
+            "name": "Yijie Ma",
+            "username": "yijiem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "05bfb8a2578aa7af8145b0bb0e3fd9e87b60dd71",
+          "message": "[DOC] Fix typo tace_id -> trace_id in logger.h (#2703)",
+          "timestamp": "2024-06-17T08:51:42+02:00",
+          "tree_id": "bc2f1eb8eb6da78244e2c7133d91dc53d06d286c",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/05bfb8a2578aa7af8145b0bb0e3fd9e87b60dd71"
+        },
+        "date": 1718657178167,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 46.632308146971845,
+            "unit": "ns/iter",
+            "extra": "iterations: 3003000\ncpu: 46.63233466533467 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 108.04108735776646,
+            "unit": "ns/iter",
+            "extra": "iterations: 1298000\ncpu: 108.04110554699538 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 630.654561679994,
+            "unit": "ns/iter",
+            "extra": "iterations: 223000\ncpu: 630.5992600896863 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1638190.8618406053,
+            "unit": "ns/iter",
+            "extra": "iterations: 227\ncpu: 617370.7621145378 ns\nthreads: 1"
           }
         ]
       }
