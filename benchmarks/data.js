@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718657245210,
+  "lastUpdate": 1718888074052,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -77938,6 +77938,54 @@ window.BENCHMARK_DATA = {
             "value": 1638190.8618406053,
             "unit": "ns/iter",
             "extra": "iterations: 227\ncpu: 617370.7621145378 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "140232061+perhapsmaple@users.noreply.github.com",
+            "name": "Harish",
+            "username": "perhapsmaple"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e1d96901fc9f41d79244e35c4209649d22b9fe9d",
+          "message": "[Code health] Remove Unicode Text from Source files (#2707)\n\nSigned-off-by: perhapsmaple <140232061+perhapsmaple@users.noreply.github.com>",
+          "timestamp": "2024-06-20T09:20:57+02:00",
+          "tree_id": "6e338d6bb2fa5e01a77b9fd5a4ea4da02b7a12a8",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/e1d96901fc9f41d79244e35c4209649d22b9fe9d"
+        },
+        "date": 1718888070646,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 51.85195926693151,
+            "unit": "ns/iter",
+            "extra": "iterations: 1986000\ncpu: 51.84561782477341 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 107.9887266607586,
+            "unit": "ns/iter",
+            "extra": "iterations: 1297000\ncpu: 107.98162606013878 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 622.0065222846138,
+            "unit": "ns/iter",
+            "extra": "iterations: 225000\ncpu: 621.9977644444449 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1651647.3324813507,
+            "unit": "ns/iter",
+            "extra": "iterations: 227\ncpu: 613471.8810572687 ns\nthreads: 1"
           }
         ]
       }
