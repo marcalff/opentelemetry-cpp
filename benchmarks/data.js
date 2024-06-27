@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719003330831,
+  "lastUpdate": 1719492755371,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -79270,6 +79270,54 @@ window.BENCHMARK_DATA = {
             "value": 1649730.4086727947,
             "unit": "ns/iter",
             "extra": "iterations: 223\ncpu: 615193.4932735425 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "4686348+tdat00@users.noreply.github.com",
+            "name": "Dat Le",
+            "username": "tdat00"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "77012391b272c016b15611092626dec4c21c54bb",
+          "message": "[BUILD] Add bazel missing BUILD file (#2720)",
+          "timestamp": "2024-06-27T09:01:41+02:00",
+          "tree_id": "46c0eba1eda831203c94808107f3d4949fa6eb16",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/77012391b272c016b15611092626dec4c21c54bb"
+        },
+        "date": 1719492749566,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 46.809273779773164,
+            "unit": "ns/iter",
+            "extra": "iterations: 2973000\ncpu: 46.80929902455432 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 108.32126267432432,
+            "unit": "ns/iter",
+            "extra": "iterations: 1297000\ncpu: 108.31641711642254 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 632.720143271134,
+            "unit": "ns/iter",
+            "extra": "iterations: 223000\ncpu: 632.6818609865471 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1644735.7964097408,
+            "unit": "ns/iter",
+            "extra": "iterations: 228\ncpu: 610486.3947368418 ns\nthreads: 1"
           }
         ]
       }
