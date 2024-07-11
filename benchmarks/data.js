@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720292050649,
+  "lastUpdate": 1720727057039,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -81046,6 +81046,54 @@ window.BENCHMARK_DATA = {
             "value": 1579719.004423722,
             "unit": "ns/iter",
             "extra": "iterations: 230\ncpu: 600286.5391304346 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "msiddhu45@gmail.com",
+            "name": "Siddhartha Malladi",
+            "username": "msiddhu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eb2b9753ea2df64079e07d40489388ea1b323108",
+          "message": "[Code Health] clang-tidy cleanup, part 1  (#2990)",
+          "timestamp": "2024-07-11T11:45:17+02:00",
+          "tree_id": "87e54ed100e999237930c451ea4f4f55dc0d0f5f",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/eb2b9753ea2df64079e07d40489388ea1b323108"
+        },
+        "date": 1720727053387,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 47.10687845239142,
+            "unit": "ns/iter",
+            "extra": "iterations: 2954000\ncpu: 47.107447867298575 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 108.36668375934268,
+            "unit": "ns/iter",
+            "extra": "iterations: 1293000\ncpu: 108.36806032482599 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 625.1504686143663,
+            "unit": "ns/iter",
+            "extra": "iterations: 225000\ncpu: 625.1587244444445 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1624668.1628019914,
+            "unit": "ns/iter",
+            "extra": "iterations: 230\ncpu: 609305.804347826 ns\nthreads: 1"
           }
         ]
       }
