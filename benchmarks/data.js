@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720800078398,
+  "lastUpdate": 1720800093257,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -81688,6 +81688,54 @@ window.BENCHMARK_DATA = {
             "value": 1624668.1628019914,
             "unit": "ns/iter",
             "extra": "iterations: 230\ncpu: 609305.804347826 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marc.alff@oracle.com",
+            "name": "Marc Alff",
+            "username": "marcalff"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "63fa4fde4ec7d1151cbf4095e442ec1f96dcb4a1",
+          "message": "[CI] Build failures with ABSEIL 20240116 and CMAKE 3.30 (#3002)",
+          "timestamp": "2024-07-12T12:17:04+02:00",
+          "tree_id": "02df6a32d759d30efa0c30161fc5677404c15702",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/63fa4fde4ec7d1151cbf4095e442ec1f96dcb4a1"
+        },
+        "date": 1720800089328,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 47.05755461459632,
+            "unit": "ns/iter",
+            "extra": "iterations: 2957000\ncpu: 47.054915116672305 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 109.66974804658845,
+            "unit": "ns/iter",
+            "extra": "iterations: 1278000\ncpu: 109.66277073552423 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 628.8444294649012,
+            "unit": "ns/iter",
+            "extra": "iterations: 170000\ncpu: 628.8470823529408 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1627203.6514618322,
+            "unit": "ns/iter",
+            "extra": "iterations: 227\ncpu: 609914.1762114536 ns\nthreads: 1"
           }
         ]
       }
