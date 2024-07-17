@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721238560304,
+  "lastUpdate": 1721252592197,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -82378,6 +82378,54 @@ window.BENCHMARK_DATA = {
             "value": 1634401.6764587138,
             "unit": "ns/iter",
             "extra": "iterations: 231\ncpu: 607853.9653679656 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "msiddhu45@gmail.com",
+            "name": "Siddhartha Malladi",
+            "username": "msiddhu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "aac2b775afa77840b91a37b4a959c9afae03a06b",
+          "message": "[CI] Add a clang-tidy build (#3001)",
+          "timestamp": "2024-07-17T23:19:41+02:00",
+          "tree_id": "2f5a9092c8873c859d87e93b220d242a059764af",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/aac2b775afa77840b91a37b4a959c9afae03a06b"
+        },
+        "date": 1721252587870,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 17.41502616501043,
+            "unit": "ns/iter",
+            "extra": "iterations: 8084000\ncpu: 17.41504181098466 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 138.62641830018111,
+            "unit": "ns/iter",
+            "extra": "iterations: 1074000\ncpu: 135.23927653631284 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 931.1672888304058,
+            "unit": "ns/iter",
+            "extra": "iterations: 152000\ncpu: 925.0001052631583 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1666444.592771277,
+            "unit": "ns/iter",
+            "extra": "iterations: 226\ncpu: 618735.8495575222 ns\nthreads: 1"
           }
         ]
       }
