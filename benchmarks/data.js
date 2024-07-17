@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720800103147,
+  "lastUpdate": 1721238542668,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -81934,6 +81934,54 @@ window.BENCHMARK_DATA = {
             "value": 1627203.6514618322,
             "unit": "ns/iter",
             "extra": "iterations: 227\ncpu: 609914.1762114536 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lalit_fin@yahoo.com",
+            "name": "Lalit Kumar Bhasin",
+            "username": "lalitb"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d8ae09e53d6988a063364c86a8362053432a3f9f",
+          "message": "[Metrics SDK] Fix hash calculation for nostd::string  (#2999)\n\n* add test to validate cardinaity limit\r\n\r\n* format\r\n\r\n* warning\r\n\r\n* Format\r\n\r\n* maint mode CI\r\n\r\n* modify test to reproduce the issue\r\n\r\n* Format\r\n\r\n* remove vscode settings\r\n\r\n* remove redundant test\r\n\r\n* remove unused code\r\n\r\n* fix to calculate hash on string_view\r\n\r\n* remove iostream\r\n\r\n* template specialization for const char *, and varous string type tests\r\n\r\n* unused variable warning\r\n\r\n* more warnings\r\n\r\n* format\r\n\r\n* fix use-after-stack-scope\r\n\r\n* format\r\n\r\n* another try\r\n\r\n* format\r\n\r\n---------\r\n\r\nCo-authored-by: Tom Tan <Tom.Tan@microsoft.com>",
+          "timestamp": "2024-07-17T07:00:20-07:00",
+          "tree_id": "38246a513adde8eccfd8c1e8b839e5cbd1f658d6",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/d8ae09e53d6988a063364c86a8362053432a3f9f"
+        },
+        "date": 1721238538301,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 17.359342514945425,
+            "unit": "ns/iter",
+            "extra": "iterations: 8089000\ncpu: 17.35550117443442 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 131.87124922468857,
+            "unit": "ns/iter",
+            "extra": "iterations: 1073000\ncpu: 129.48674277726002 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 926.1689154930364,
+            "unit": "ns/iter",
+            "extra": "iterations: 153000\ncpu: 921.1275555555555 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1634401.6764587138,
+            "unit": "ns/iter",
+            "extra": "iterations: 231\ncpu: 607853.9653679656 ns\nthreads: 1"
           }
         ]
       }
