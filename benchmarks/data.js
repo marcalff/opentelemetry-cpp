@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722007428833,
+  "lastUpdate": 1722007532506,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -83464,6 +83464,54 @@ window.BENCHMARK_DATA = {
             "value": 1619340.0213728736,
             "unit": "ns/iter",
             "extra": "iterations: 231\ncpu: 603681.380952381 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "961365124@qq.com",
+            "name": "Weipeng Hong",
+            "username": "hongweipeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "deed1e3a0c3d67afd9db522b69daad567cdb0592",
+          "message": "[SDK] Fix memory leak in TlsRandomNumberGenerator() constructor (#2661)",
+          "timestamp": "2024-07-19T20:13:04+02:00",
+          "tree_id": "75a43e97c2525958b520ab70b6523f1fc06de1bb",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/deed1e3a0c3d67afd9db522b69daad567cdb0592"
+        },
+        "date": 1722007529639,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 17.927679155494392,
+            "unit": "ns/iter",
+            "extra": "iterations: 7845000\ncpu: 17.9238535372849 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 132.72675154023676,
+            "unit": "ns/iter",
+            "extra": "iterations: 1067000\ncpu: 130.82944048734774 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 944.7481992433397,
+            "unit": "ns/iter",
+            "extra": "iterations: 139000\ncpu: 940.8288561151079 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1623670.6026669205,
+            "unit": "ns/iter",
+            "extra": "iterations: 232\ncpu: 605454.9612068967 ns\nthreads: 1"
           }
         ]
       }
