@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722007534002,
+  "lastUpdate": 1722284552591,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -83685,6 +83685,54 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/marcalff/opentelemetry-cpp/commit/deed1e3a0c3d67afd9db522b69daad567cdb0592"
         },
         "date": 1722007529639,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 17.927679155494392,
+            "unit": "ns/iter",
+            "extra": "iterations: 7845000\ncpu: 17.9238535372849 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 132.72675154023676,
+            "unit": "ns/iter",
+            "extra": "iterations: 1067000\ncpu: 130.82944048734774 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 944.7481992433397,
+            "unit": "ns/iter",
+            "extra": "iterations: 139000\ncpu: 940.8288561151079 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1623670.6026669205,
+            "unit": "ns/iter",
+            "extra": "iterations: 232\ncpu: 605454.9612068967 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "owentou@tencent.com",
+            "name": "WenTao Ou",
+            "username": "owent"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "84368cd76151bfad525739d675061bd071477f81",
+          "message": "[EXPORTER] Ignore exception when create thread in OTLP file exporter. (#3012)",
+          "timestamp": "2024-07-29T17:25:44+02:00",
+          "tree_id": "d0e765247b6702dae6e9b40e0e14683bf0b1cc43",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/84368cd76151bfad525739d675061bd071477f81"
+        },
+        "date": 1722284549979,
         "tool": "googlecpp",
         "benches": [
           {
