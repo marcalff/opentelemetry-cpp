@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722708784453,
+  "lastUpdate": 1722708797103,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -84327,6 +84327,54 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/marcalff/opentelemetry-cpp/commit/84368cd76151bfad525739d675061bd071477f81"
         },
         "date": 1722284549979,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 17.927679155494392,
+            "unit": "ns/iter",
+            "extra": "iterations: 7845000\ncpu: 17.9238535372849 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 132.72675154023676,
+            "unit": "ns/iter",
+            "extra": "iterations: 1067000\ncpu: 130.82944048734774 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 944.7481992433397,
+            "unit": "ns/iter",
+            "extra": "iterations: 139000\ncpu: 940.8288561151079 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1623670.6026669205,
+            "unit": "ns/iter",
+            "extra": "iterations: 232\ncpu: 605454.9612068967 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "m.bergler@tum.de",
+            "name": "Manuel Bergler",
+            "username": "Corristo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "34ca855055ebb9804756ff220fd64cb45d0c6de5",
+          "message": "[BUILD] Fix build without vcpkg on Windows when gRPC is disabled (#3016)",
+          "timestamp": "2024-08-02T15:54:26-07:00",
+          "tree_id": "edd81564dba6acd896b28cbe4edea42bb5242523",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/34ca855055ebb9804756ff220fd64cb45d0c6de5"
+        },
+        "date": 1722708794397,
         "tool": "googlecpp",
         "benches": [
           {
