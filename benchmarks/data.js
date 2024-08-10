@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723327275092,
+  "lastUpdate": 1723327287224,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -74791,6 +74791,204 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/marcalff/opentelemetry-cpp/commit/7c6b9dbcaf43af9a281029121392aef31445b770"
         },
         "date": 1723066993840,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_BaselineBuffer/1",
+            "value": 7539269.924163818,
+            "unit": "ns/iter",
+            "extra": "iterations: 100\ncpu: 55237.03 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_BaselineBuffer/2",
+            "value": 14393041.133880615,
+            "unit": "ns/iter",
+            "extra": "iterations: 100\ncpu: 128116.45 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_BaselineBuffer/4",
+            "value": 14732191.562652588,
+            "unit": "ns/iter",
+            "extra": "iterations: 100\ncpu: 340004.4100000001 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_LockFreeBuffer/1",
+            "value": 2521573.066711426,
+            "unit": "ns/iter",
+            "extra": "iterations: 1000\ncpu: 51037.361 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_LockFreeBuffer/2",
+            "value": 6859025.955200195,
+            "unit": "ns/iter",
+            "extra": "iterations: 100\ncpu: 121524.14999999985 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_LockFreeBuffer/4",
+            "value": 9798939.228057861,
+            "unit": "ns/iter",
+            "extra": "iterations: 100\ncpu: 332869.3999999999 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_Base64Escape",
+            "value": 125.9079920436703,
+            "unit": "ns/iter",
+            "extra": "iterations: 1131017\ncpu: 124.92833441053494 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_Base64Unescape",
+            "value": 117.7569504236397,
+            "unit": "ns/iter",
+            "extra": "iterations: 1260270\ncpu: 117.59375371944107 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AttributeMapHash",
+            "value": 171.4850291928691,
+            "unit": "ns/iter",
+            "extra": "iterations: 820219\ncpu: 170.52436117671016 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_RandomIdGeneration",
+            "value": 4.0222040631674405,
+            "unit": "ns/iter",
+            "extra": "iterations: 35090269\ncpu: 3.942408620463981 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_RandomIdStdGeneration",
+            "value": 7.986279024011142,
+            "unit": "ns/iter",
+            "extra": "iterations: 17714395\ncpu: 7.965107924939011 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AttributseProcessorFilter",
+            "value": 275.2021145733411,
+            "unit": "ns/iter",
+            "extra": "iterations: 509608\ncpu: 272.7879782107031 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_HistogramAggregation",
+            "value": 8072530.522066005,
+            "unit": "ns/iter",
+            "extra": "iterations: 17\ncpu: 7951574.235294118 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_NewIndexer",
+            "value": 13.997419184398428,
+            "unit": "ns/iter",
+            "extra": "iterations: 9829000\ncpu: 13.94070810865821 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_ComputeIndex/-1",
+            "value": 9.315976773618353,
+            "unit": "ns/iter",
+            "extra": "iterations: 15681000\ncpu: 9.306666092724157 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_ComputeIndex/0",
+            "value": 9.322503939763156,
+            "unit": "ns/iter",
+            "extra": "iterations: 15047000\ncpu: 9.302128862897684 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_ComputeIndex/1",
+            "value": 16.584364485880123,
+            "unit": "ns/iter",
+            "extra": "iterations: 8377000\ncpu: 16.567952847080587 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_ComputeIndex/20",
+            "value": 16.77296661721477,
+            "unit": "ns/iter",
+            "extra": "iterations: 8415000\ncpu: 16.757479263224027 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AttributseHashMap",
+            "value": 27649300.439017158,
+            "unit": "ns/iter",
+            "extra": "iterations: 7\ncpu: 19054061.285714287 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_MeasurementsTest",
+            "value": 3478087.902069092,
+            "unit": "ns/iter",
+            "extra": "iterations: 1000\ncpu: 28265.998000000003 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_SumAggregation",
+            "value": 8251358.481014476,
+            "unit": "ns/iter",
+            "extra": "iterations: 17\ncpu: 8136711.823529412 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AlwaysOffSamplerConstruction",
+            "value": 1.5335979365319785,
+            "unit": "ns/iter",
+            "extra": "iterations: 90560627\ncpu: 1.5260695136309073 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AlwaysOnSamplerConstruction",
+            "value": 0.8005033303316541,
+            "unit": "ns/iter",
+            "extra": "iterations: 178169865\ncpu: 0.7913265747830031 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AlwaysOffSamplerShouldSample",
+            "value": 17.3062801584757,
+            "unit": "ns/iter",
+            "extra": "iterations: 8107423\ncpu: 17.17071195125752 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AlwaysOnSamplerShouldSample",
+            "value": 17.221702409874627,
+            "unit": "ns/iter",
+            "extra": "iterations: 8108393\ncpu: 17.214727011875233 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_ParentBasedSamplerShouldSample",
+            "value": 22.33066087142288,
+            "unit": "ns/iter",
+            "extra": "iterations: 6290306\ncpu: 22.296781587414035 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_TraceIdRatioBasedSamplerShouldSample",
+            "value": 13.029611339524893,
+            "unit": "ns/iter",
+            "extra": "iterations: 10600172\ncpu: 12.837453109251433 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_SpanCreation",
+            "value": 1092.3843498672106,
+            "unit": "ns/iter",
+            "extra": "iterations: 131492\ncpu: 1091.1399324673741 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_NoopSpanCreation",
+            "value": 247.64298966112437,
+            "unit": "ns/iter",
+            "extra": "iterations: 542130\ncpu: 247.03622009481134 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "Troels.d.hoffmeyer@gmail.com",
+            "name": "Troels Hoffmeyer",
+            "username": "Troels51"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "41538b0525963031747d61c7775e1246231c7049",
+          "message": "[BUILD] Version opentelemetry_proto/proto_grpc shared libraries (#2992)",
+          "timestamp": "2024-08-09T13:38:17+02:00",
+          "tree_id": "b4c855ed1b4134d0777880095eb065fc737fb5ef",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/41538b0525963031747d61c7775e1246231c7049"
+        },
+        "date": 1723327284300,
         "tool": "googlecpp",
         "benches": [
           {
