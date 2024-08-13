@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723584420971,
+  "lastUpdate": 1723584436024,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -85857,6 +85857,54 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/marcalff/opentelemetry-cpp/commit/41538b0525963031747d61c7775e1246231c7049"
         },
         "date": 1723327286700,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 17.927679155494392,
+            "unit": "ns/iter",
+            "extra": "iterations: 7845000\ncpu: 17.9238535372849 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 132.72675154023676,
+            "unit": "ns/iter",
+            "extra": "iterations: 1067000\ncpu: 130.82944048734774 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 944.7481992433397,
+            "unit": "ns/iter",
+            "extra": "iterations: 139000\ncpu: 940.8288561151079 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1623670.6026669205,
+            "unit": "ns/iter",
+            "extra": "iterations: 232\ncpu: 605454.9612068967 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marc.alff@oracle.com",
+            "name": "Marc Alff",
+            "username": "marcalff"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9e062b5bdd0920e1d6f5e7ffadc468e0b7ec945b",
+          "message": "[SEMANTIC CONVENTIONS] Upgrade semantic conventions to 1.27.0 (#3023)",
+          "timestamp": "2024-08-13T10:51:39+02:00",
+          "tree_id": "a676affbd3926fe84d337399fa1eb49775636c62",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/9e062b5bdd0920e1d6f5e7ffadc468e0b7ec945b"
+        },
+        "date": 1723584432924,
         "tool": "googlecpp",
         "benches": [
           {
