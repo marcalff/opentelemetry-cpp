@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727476727095,
+  "lastUpdate": 1727476756186,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -86572,6 +86572,54 @@ window.BENCHMARK_DATA = {
             "value": 1634873.8419382195,
             "unit": "ns/iter",
             "extra": "iterations: 228\ncpu: 611713.7149122806 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "fabriziomello@gmail.com",
+            "name": "Fabrízio de Royes Mello",
+            "username": "fabriziomello"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "23818a7105c2565ff0a07580a585d10ec3dc8db4",
+          "message": "[CI] Update otel-collector version (#3067)\n\nLooks like otel-collector equal or higher than 0.86.0 has the \"debug\"\r\nexporter.\r\n\r\nSo updated the README.md with the latest version of the otel-collector\r\n(v0.109.0) and also the CI script.",
+          "timestamp": "2024-09-20T15:49:22+02:00",
+          "tree_id": "b60597cdd0bc0ef594e4c59a230337b01ffb90f5",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/23818a7105c2565ff0a07580a585d10ec3dc8db4"
+        },
+        "date": 1727476753035,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 17.68274722534921,
+            "unit": "ns/iter",
+            "extra": "iterations: 7739000\ncpu: 17.682806951802558 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 129.776349350742,
+            "unit": "ns/iter",
+            "extra": "iterations: 1095000\ncpu: 127.54949680365297 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 935.102930132127,
+            "unit": "ns/iter",
+            "extra": "iterations: 151000\ncpu: 932.5535430463578 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1727145.1487940315,
+            "unit": "ns/iter",
+            "extra": "iterations: 227\ncpu: 619989.2951541849 ns\nthreads: 1"
           }
         ]
       }
