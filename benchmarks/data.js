@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728412286025,
+  "lastUpdate": 1728412302317,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -88546,6 +88546,54 @@ window.BENCHMARK_DATA = {
             "value": 1696087.3563065487,
             "unit": "ns/iter",
             "extra": "iterations: 234\ncpu: 597143.9102564105 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marc.alff@oracle.com",
+            "name": "Marc Alff",
+            "username": "marcalff"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6445819fceeb3bfea1444a88418f00a0df69cd2f",
+          "message": "[API] Jaeger Propagator should not be deprecated (#3086)",
+          "timestamp": "2024-10-08T18:49:56+02:00",
+          "tree_id": "acce9e05c79354144b395ed3e237bc1f0429f88f",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/6445819fceeb3bfea1444a88418f00a0df69cd2f"
+        },
+        "date": 1728412298853,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 17.809341170014314,
+            "unit": "ns/iter",
+            "extra": "iterations: 7786000\ncpu: 17.809392114050862 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 127.79769931642812,
+            "unit": "ns/iter",
+            "extra": "iterations: 1116000\ncpu: 125.6368853046595 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 932.9048792521158,
+            "unit": "ns/iter",
+            "extra": "iterations: 150000\ncpu: 930.3629933333332 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1723465.6663067574,
+            "unit": "ns/iter",
+            "extra": "iterations: 226\ncpu: 615472.8672566371 ns\nthreads: 1"
           }
         ]
       }
