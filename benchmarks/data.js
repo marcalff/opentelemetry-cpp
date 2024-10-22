@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728412302317,
+  "lastUpdate": 1729626758592,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -88594,6 +88594,54 @@ window.BENCHMARK_DATA = {
             "value": 1723465.6663067574,
             "unit": "ns/iter",
             "extra": "iterations: 226\ncpu: 615472.8672566371 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "tobim+github@fastmail.fm",
+            "name": "tobim",
+            "username": "tobim"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7402ed9bac9265ea22ddb1dd4e61029f745f7436",
+          "message": "[BUILD] Add a CMake option to disable shared libs (#3095)\n\n* Add a CMake option to disable shared libs\r\n\r\nThis option is useful to support platforms that do not support\r\ndynamic libraries and `dlopen`.",
+          "timestamp": "2024-10-21T23:27:57+02:00",
+          "tree_id": "8f9419f9b31e61e1e9c836521c0b21abd5ea5c8e",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/7402ed9bac9265ea22ddb1dd4e61029f745f7436"
+        },
+        "date": 1729626754128,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 17.59725156876952,
+            "unit": "ns/iter",
+            "extra": "iterations: 7905000\ncpu: 17.597468690702087 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 132.23318089359546,
+            "unit": "ns/iter",
+            "extra": "iterations: 1078000\ncpu: 129.53848701298702 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 949.367983587857,
+            "unit": "ns/iter",
+            "extra": "iterations: 145000\ncpu: 945.2060827586203 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1676516.5747257702,
+            "unit": "ns/iter",
+            "extra": "iterations: 228\ncpu: 607354.4254385966 ns\nthreads: 1"
           }
         ]
       }
