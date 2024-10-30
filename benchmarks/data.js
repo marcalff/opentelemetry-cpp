@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730325401585,
+  "lastUpdate": 1730325459448,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -89236,6 +89236,54 @@ window.BENCHMARK_DATA = {
             "value": 1676516.5747257702,
             "unit": "ns/iter",
             "extra": "iterations: 228\ncpu: 607354.4254385966 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "uysalu18@hotmail.com",
+            "name": "uuzay",
+            "username": "uuzay"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f30ab925c82ca817461ec9b5a6a268be0cfc3960",
+          "message": "[API] Add synchronous gauge (#3029)\n\n* Add synchronous gauge\r\n\r\n* Add ABI Version macro, update tests\r\n\r\n* Fix function description\r\n\r\n* Fix formatting\r\n\r\n* Remove ABI macros from SDK.\r\n\r\n* Add error log for gauge delta temporality.\r\n\r\n* Fix formatting\r\n\r\n* Apply suggestions from code review\r\n\r\nMove kGauge to the end, for better ABI compatibility.\r\n\r\n---------\r\n\r\nCo-authored-by: Lalit Kumar Bhasin <lalit_fin@yahoo.com>\r\nCo-authored-by: Marc Alff <marc.alff@free.fr>",
+          "timestamp": "2024-10-30T22:34:25+01:00",
+          "tree_id": "64a5b29cd839f87e2564384187e0bf7b75f9f238",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/f30ab925c82ca817461ec9b5a6a268be0cfc3960"
+        },
+        "date": 1730325455636,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 17.61802548714716,
+            "unit": "ns/iter",
+            "extra": "iterations: 7836000\ncpu: 17.617373277182235 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 132.1242136113784,
+            "unit": "ns/iter",
+            "extra": "iterations: 816000\ncpu: 130.05401715686276 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 937.607114678187,
+            "unit": "ns/iter",
+            "extra": "iterations: 151000\ncpu: 933.9800596026494 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1665545.5464902131,
+            "unit": "ns/iter",
+            "extra": "iterations: 230\ncpu: 608141.9217391307 ns\nthreads: 1"
           }
         ]
       }
