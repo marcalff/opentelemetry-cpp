@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731101209007,
+  "lastUpdate": 1731530243263,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -90370,6 +90370,54 @@ window.BENCHMARK_DATA = {
             "value": 1682880.1663436554,
             "unit": "ns/iter",
             "extra": "iterations: 227\ncpu: 602974.9030837002 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "marc.alff@oracle.com",
+            "name": "Marc Alff",
+            "username": "marcalff"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f7a9aea0637f0b29e1668b4a7e83b25106489b87",
+          "message": "[SEMANTIC CONVENTIONS] Migration to weaver (#3105)",
+          "timestamp": "2024-11-13T19:14:12+01:00",
+          "tree_id": "93065d142f21e6fae98f0c651b05006587199d40",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/f7a9aea0637f0b29e1668b4a7e83b25106489b87"
+        },
+        "date": 1731530239261,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 17.810823961399983,
+            "unit": "ns/iter",
+            "extra": "iterations: 7855000\ncpu: 17.809397835773392 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 131.688299506709,
+            "unit": "ns/iter",
+            "extra": "iterations: 1077000\ncpu: 129.3633816155989 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 931.941910295297,
+            "unit": "ns/iter",
+            "extra": "iterations: 151000\ncpu: 928.2084635761594 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1690239.3537529549,
+            "unit": "ns/iter",
+            "extra": "iterations: 233\ncpu: 602200.1072961377 ns\nthreads: 1"
           }
         ]
       }
