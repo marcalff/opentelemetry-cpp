@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732275062354,
+  "lastUpdate": 1732482542264,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -92146,6 +92146,54 @@ window.BENCHMARK_DATA = {
             "value": 1732247.065653843,
             "unit": "ns/iter",
             "extra": "iterations: 226\ncpu: 618582.1194690265 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "albkharisov@gmail.com",
+            "name": "Albert Kharisov",
+            "username": "albkharisov"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "31956f82ff990a870d2953c722666a782f672c35",
+          "message": "[BUILD] Fix build for esp32 (#3155)",
+          "timestamp": "2024-11-24T21:50:40+01:00",
+          "tree_id": "81e9cd6077561cdc4b86f0df69fe361e0d90867b",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/31956f82ff990a870d2953c722666a782f672c35"
+        },
+        "date": 1732482538120,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 17.993924801448358,
+            "unit": "ns/iter",
+            "extra": "iterations: 7801000\ncpu: 17.992082938084863 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 258.16572655876763,
+            "unit": "ns/iter",
+            "extra": "iterations: 556000\ncpu: 250.69995503597121 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 992.8779168562455,
+            "unit": "ns/iter",
+            "extra": "iterations: 132000\ncpu: 987.0801363636364 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1681477.3542839184,
+            "unit": "ns/iter",
+            "extra": "iterations: 228\ncpu: 610200.3684210528 ns\nthreads: 1"
           }
         ]
       }
