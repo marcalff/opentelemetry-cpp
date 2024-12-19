@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734630930152,
+  "lastUpdate": 1734630932104,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -97672,6 +97672,54 @@ window.BENCHMARK_DATA = {
             "value": 1714649.2004394531,
             "unit": "ns/iter",
             "extra": "iterations: 225\ncpu: 615753.688888889 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "doug.barker@gmail.com",
+            "name": "Doug Barker",
+            "username": "dbarker"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4998eb178601f69481e1629e5464d0272532ec9e",
+          "message": "[EDITORIAL] fix changelog entry for PR 3185 (#3217)",
+          "timestamp": "2024-12-19T18:24:29+01:00",
+          "tree_id": "ec57b7b4cf8d31fcf9510106cfb2727bfefc2bdc",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/4998eb178601f69481e1629e5464d0272532ec9e"
+        },
+        "date": 1734630926343,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 17.604121455439813,
+            "unit": "ns/iter",
+            "extra": "iterations: 7965000\ncpu: 17.604298556183306 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 137.44970240017784,
+            "unit": "ns/iter",
+            "extra": "iterations: 1028000\ncpu: 134.5288356031128 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 967.3842677363643,
+            "unit": "ns/iter",
+            "extra": "iterations: 135000\ncpu: 962.1318888888891 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1719376.2461344402,
+            "unit": "ns/iter",
+            "extra": "iterations: 225\ncpu: 618097.7288888892 ns\nthreads: 1"
           }
         ]
       }
