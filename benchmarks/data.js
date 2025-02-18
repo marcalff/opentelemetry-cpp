@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739889650022,
+  "lastUpdate": 1739889660729,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -101224,6 +101224,54 @@ window.BENCHMARK_DATA = {
             "value": 2922495.0263942527,
             "unit": "ns/iter",
             "extra": "iterations: 221\ncpu: 645924.9004524885 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "107717825+opentelemetrybot@users.noreply.github.com",
+            "name": "OpenTelemetry Bot",
+            "username": "opentelemetrybot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "821ad9ed28d84d91f0b4c0b33ff4c7624ec64500",
+          "message": "Add FOSSA scanning workflow (#3279)\n\nCo-authored-by: otelbot <197425009+otelbot@users.noreply.github.com>",
+          "timestamp": "2025-02-18T09:17:05+01:00",
+          "tree_id": "d41c7328c57ffe102380462de0553a975d533df8",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/821ad9ed28d84d91f0b4c0b33ff4c7624ec64500"
+        },
+        "date": 1739889655795,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 17.994331784811507,
+            "unit": "ns/iter",
+            "extra": "iterations: 7756000\ncpu: 17.99279822073234 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 129.5162225837138,
+            "unit": "ns/iter",
+            "extra": "iterations: 1072000\ncpu: 127.75858582089552 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 944.1247722446518,
+            "unit": "ns/iter",
+            "extra": "iterations: 149000\ncpu: 942.4130872483217 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1704035.6345798657,
+            "unit": "ns/iter",
+            "extra": "iterations: 230\ncpu: 617008.969565217 ns\nthreads: 1"
           }
         ]
       }
