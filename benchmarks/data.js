@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742510238115,
+  "lastUpdate": 1742510248253,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -102754,6 +102754,54 @@ window.BENCHMARK_DATA = {
             "value": 1704035.6345798657,
             "unit": "ns/iter",
             "extra": "iterations: 230\ncpu: 617008.969565217 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sharmapranav@google.com",
+            "name": "Pranav Sharma",
+            "username": "psx95"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d09bfbac57ca5ce45e4554e15729c39554e7eda1",
+          "message": "[SDK] Add logger scope configurator (#3282)",
+          "timestamp": "2025-03-20T22:22:11+01:00",
+          "tree_id": "524da507962c6ff3eda20f88e1db7b2936f22de2",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/d09bfbac57ca5ce45e4554e15729c39554e7eda1"
+        },
+        "date": 1742510243810,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 18.98545579653855,
+            "unit": "ns/iter",
+            "extra": "iterations: 7773000\ncpu: 18.984475234787087 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 128.5791615227004,
+            "unit": "ns/iter",
+            "extra": "iterations: 1093000\ncpu: 126.31548398902105 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 923.9975611368815,
+            "unit": "ns/iter",
+            "extra": "iterations: 150000\ncpu: 922.1347133333335 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1712576.3391193592,
+            "unit": "ns/iter",
+            "extra": "iterations: 228\ncpu: 614252.1052631576 ns\nthreads: 1"
           }
         ]
       }
