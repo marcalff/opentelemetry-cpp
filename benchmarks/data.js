@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743500776959,
+  "lastUpdate": 1743500799832,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -92324,6 +92324,204 @@ window.BENCHMARK_DATA = {
             "value": 141.41362229516483,
             "unit": "ns/iter",
             "extra": "iterations: 993990\ncpu: 141.39146369681794 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_BaselineBuffer/1",
+            "value": 5965194.7021484375,
+            "unit": "ns/iter",
+            "extra": "iterations: 100\ncpu: 55846.92000000001 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_BaselineBuffer/2",
+            "value": 3372481.552744769,
+            "unit": "ns/iter",
+            "extra": "iterations: 1057\ncpu: 134128.8978240303 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_BaselineBuffer/4",
+            "value": 3715572.8323179632,
+            "unit": "ns/iter",
+            "extra": "iterations: 562\ncpu: 257910.62277580076 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_LockFreeBuffer/1",
+            "value": 2539655.6854248047,
+            "unit": "ns/iter",
+            "extra": "iterations: 1000\ncpu: 64768.50200000001 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_LockFreeBuffer/2",
+            "value": 2764790.8938073628,
+            "unit": "ns/iter",
+            "extra": "iterations: 1087\ncpu: 138674.5381784729 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_LockFreeBuffer/4",
+            "value": 2892827.8947201855,
+            "unit": "ns/iter",
+            "extra": "iterations: 513\ncpu: 262337.72514619894 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AttributeMapHash",
+            "value": 174.62713312445234,
+            "unit": "ns/iter",
+            "extra": "iterations: 820610\ncpu: 172.7292587221701 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_RandomIdGeneration",
+            "value": 5.448449763719272,
+            "unit": "ns/iter",
+            "extra": "iterations: 26005609\ncpu: 5.390125184147774 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_RandomIdStdGeneration",
+            "value": 3.630772674497954,
+            "unit": "ns/iter",
+            "extra": "iterations: 39113536\ncpu: 3.614269443703582 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_Base64Escape",
+            "value": 144.6628167639315,
+            "unit": "ns/iter",
+            "extra": "iterations: 1070796\ncpu: 127.83094445627368 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_Base64Unescape",
+            "value": 117.38864734818705,
+            "unit": "ns/iter",
+            "extra": "iterations: 1206732\ncpu: 115.33870818044109 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "107717825+opentelemetrybot@users.noreply.github.com",
+            "name": "OpenTelemetry Bot",
+            "username": "opentelemetrybot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b2bc73fb83a5b5bd15cc189ec428133399d981ef",
+          "message": "[CI] Add ossf-scorecard scanning workflow (#3332)\n\n* Add ossf-scorecard scanning workflow\n\n* Add end of file newline\n\n---------\n\nCo-authored-by: otelbot <197425009+otelbot@users.noreply.github.com>",
+          "timestamp": "2025-04-01T11:37:12+02:00",
+          "tree_id": "1cd77322b244e101c3a642a8753909eaafb11ce1",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/b2bc73fb83a5b5bd15cc189ec428133399d981ef"
+        },
+        "date": 1743500796124,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_MeasurementsTest",
+            "value": 2246195.077896118,
+            "unit": "ns/iter",
+            "extra": "iterations: 1000\ncpu: 28764.773 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AttributseProcessorFilter",
+            "value": 251.23433339390905,
+            "unit": "ns/iter",
+            "extra": "iterations: 569492\ncpu: 250.83484579239047 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AttributseHashMap",
+            "value": 27900729.860578265,
+            "unit": "ns/iter",
+            "extra": "iterations: 7\ncpu: 19679354.285714287 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_SumAggregation",
+            "value": 8467225.46745749,
+            "unit": "ns/iter",
+            "extra": "iterations: 17\ncpu: 8406724.88235294 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_NewIndexer",
+            "value": 13.536316350629107,
+            "unit": "ns/iter",
+            "extra": "iterations: 10157000\ncpu: 13.525823176134736 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_ComputeIndex/-1",
+            "value": 9.851151661391881,
+            "unit": "ns/iter",
+            "extra": "iterations: 14147000\ncpu: 9.80211111896494 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_ComputeIndex/0",
+            "value": 9.651426162329143,
+            "unit": "ns/iter",
+            "extra": "iterations: 14064000\ncpu: 9.573522753128819 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_ComputeIndex/1",
+            "value": 16.997595470076327,
+            "unit": "ns/iter",
+            "extra": "iterations: 8298000\ncpu: 16.911912750060893 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_ComputeIndex/20",
+            "value": 18.335396296161957,
+            "unit": "ns/iter",
+            "extra": "iterations: 8353000\ncpu: 16.954361067880992 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_HistogramAggregation",
+            "value": 8165794.260361616,
+            "unit": "ns/iter",
+            "extra": "iterations: 17\ncpu: 8067228.411764706 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AlwaysOffSamplerConstruction",
+            "value": 0.8073006987370266,
+            "unit": "ns/iter",
+            "extra": "iterations: 175141670\ncpu: 0.8044069523831766 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AlwaysOnSamplerConstruction",
+            "value": 0.8075053701983715,
+            "unit": "ns/iter",
+            "extra": "iterations: 174519763\ncpu: 0.8059821167646211 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AlwaysOffSamplerShouldSample",
+            "value": 24.435824571717212,
+            "unit": "ns/iter",
+            "extra": "iterations: 6020688\ncpu: 23.299168633219335 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AlwaysOnSamplerShouldSample",
+            "value": 24.82955697350257,
+            "unit": "ns/iter",
+            "extra": "iterations: 5660425\ncpu: 24.58416125997607 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_ParentBasedSamplerShouldSample",
+            "value": 29.946684009202563,
+            "unit": "ns/iter",
+            "extra": "iterations: 4772323\ncpu: 29.587751290094978 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_TraceIdRatioBasedSamplerShouldSample",
+            "value": 12.78223225759526,
+            "unit": "ns/iter",
+            "extra": "iterations: 9948339\ncpu: 12.739947844559774 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_SpanCreation",
+            "value": 996.5321297303101,
+            "unit": "ns/iter",
+            "extra": "iterations: 166679\ncpu: 985.2105544189741 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_NoopSpanCreation",
+            "value": 265.2263806625189,
+            "unit": "ns/iter",
+            "extra": "iterations: 529153\ncpu: 264.5763607123081 ns\nthreads: 1"
           },
           {
             "name": "BM_BaselineBuffer/1",
