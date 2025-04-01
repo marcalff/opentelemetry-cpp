@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743538434663,
+  "lastUpdate": 1743538449739,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -105220,6 +105220,54 @@ window.BENCHMARK_DATA = {
             "value": 1703312.9027395537,
             "unit": "ns/iter",
             "extra": "iterations: 231\ncpu: 611197.1515151516 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "doug.barker@gmail.com",
+            "name": "Doug Barker",
+            "username": "dbarker"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "83ac2ae49d49d54565a9ce57c89c68e098403170",
+          "message": "[CI] pin cmake in ci and devcontainer (#3336)\n\n* pin cmake on ubuntu in ci and devcontainer\n\n* add setup cmake script for windows. install pinned cmake in more ubuntu jobs\n\n* pin cmake on bazel builds. force the cmake downgrade on windows",
+          "timestamp": "2025-04-01T22:08:08+02:00",
+          "tree_id": "87e78702e0c163eaa02caa69a9fb1f7ac21eb833",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/83ac2ae49d49d54565a9ce57c89c68e098403170"
+        },
+        "date": 1743538445447,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 18.353316919257086,
+            "unit": "ns/iter",
+            "extra": "iterations: 7909000\ncpu: 18.335910481729677 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 130.7261758157853,
+            "unit": "ns/iter",
+            "extra": "iterations: 1071000\ncpu: 128.21028197945844 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 942.7457242398649,
+            "unit": "ns/iter",
+            "extra": "iterations: 148000\ncpu: 941.3617972972971 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1748433.2385816071,
+            "unit": "ns/iter",
+            "extra": "iterations: 228\ncpu: 608655.8596491227 ns\nthreads: 1"
           }
         ]
       }
