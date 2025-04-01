@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743500799832,
+  "lastUpdate": 1743500811775,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -104974,6 +104974,54 @@ window.BENCHMARK_DATA = {
             "value": 1700402.329408048,
             "unit": "ns/iter",
             "extra": "iterations: 233\ncpu: 604829.6394849784 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "107717825+opentelemetrybot@users.noreply.github.com",
+            "name": "OpenTelemetry Bot",
+            "username": "opentelemetrybot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b2bc73fb83a5b5bd15cc189ec428133399d981ef",
+          "message": "[CI] Add ossf-scorecard scanning workflow (#3332)\n\n* Add ossf-scorecard scanning workflow\n\n* Add end of file newline\n\n---------\n\nCo-authored-by: otelbot <197425009+otelbot@users.noreply.github.com>",
+          "timestamp": "2025-04-01T11:37:12+02:00",
+          "tree_id": "1cd77322b244e101c3a642a8753909eaafb11ce1",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/b2bc73fb83a5b5bd15cc189ec428133399d981ef"
+        },
+        "date": 1743500808005,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 18.38471479476637,
+            "unit": "ns/iter",
+            "extra": "iterations: 7850000\ncpu: 18.384439872611466 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 135.31223362019472,
+            "unit": "ns/iter",
+            "extra": "iterations: 1058000\ncpu: 133.36991776937614 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 926.7816418095639,
+            "unit": "ns/iter",
+            "extra": "iterations: 152000\ncpu: 925.3412302631579 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1703312.9027395537,
+            "unit": "ns/iter",
+            "extra": "iterations: 231\ncpu: 611197.1515151516 ns\nthreads: 1"
           }
         ]
       }
