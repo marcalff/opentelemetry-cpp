@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745939760683,
+  "lastUpdate": 1747229886720,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -107278,6 +107278,54 @@ window.BENCHMARK_DATA = {
             "value": 2034550.4776837956,
             "unit": "ns/iter",
             "extra": "iterations: 237\ncpu: 594591.1603375529 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "doug.barker@gmail.com",
+            "name": "Doug Barker",
+            "username": "dbarker"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "546fcd797972d257bf255884a3c52f2fd10bfc61",
+          "message": "[INSTALL] Unify cmake install functions and dynamically set component dependencies (#3368)",
+          "timestamp": "2025-05-14T09:44:27+02:00",
+          "tree_id": "e88658d57fb2bbd0f6584affb8512029a102c2ee",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/546fcd797972d257bf255884a3c52f2fd10bfc61"
+        },
+        "date": 1747229881367,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 17.682531851673875,
+            "unit": "ns/iter",
+            "extra": "iterations: 7751000\ncpu: 17.68052083602116 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 133.222426283416,
+            "unit": "ns/iter",
+            "extra": "iterations: 1055000\ncpu: 131.43365781990528 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 948.9250183105469,
+            "unit": "ns/iter",
+            "extra": "iterations: 150000\ncpu: 945.5621466666664 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1704993.7778049046,
+            "unit": "ns/iter",
+            "extra": "iterations: 225\ncpu: 621959.2400000001 ns\nthreads: 1"
           }
         ]
       }
