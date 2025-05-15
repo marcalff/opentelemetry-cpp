@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747297109523,
+  "lastUpdate": 1747311766740,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -108238,6 +108238,54 @@ window.BENCHMARK_DATA = {
             "value": 1721338.2219013416,
             "unit": "ns/iter",
             "extra": "iterations: 228\ncpu: 611262.5833333337 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "20c8ded8ad5ca5f3394cd21e6f96ef0397997160",
+          "message": "Bump fossas/fossa-action from 1.6.0 to 1.7.0 (#3414)\n\nBumps [fossas/fossa-action](https://github.com/fossas/fossa-action) from 1.6.0 to 1.7.0.\n- [Release notes](https://github.com/fossas/fossa-action/releases)\n- [Commits](https://github.com/fossas/fossa-action/compare/c0a7d013f84c8ee5e910593186598625513cc1e4...3ebcea1862c6ffbd5cf1b4d0bd6b3fe7bd6f2cac)\n\n---\nupdated-dependencies:\n- dependency-name: fossas/fossa-action\n  dependency-version: 1.7.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2025-05-15T11:06:03+02:00",
+          "tree_id": "13e5abb8fe0e4c59aca8761e47027f4251058355",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/20c8ded8ad5ca5f3394cd21e6f96ef0397997160"
+        },
+        "date": 1747311761291,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 18.428102934979165,
+            "unit": "ns/iter",
+            "extra": "iterations: 6879000\ncpu: 18.42581363570287 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 132.6423957164122,
+            "unit": "ns/iter",
+            "extra": "iterations: 1051000\ncpu: 130.72189343482395 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 939.1147818341351,
+            "unit": "ns/iter",
+            "extra": "iterations: 149000\ncpu: 937.2079194630873 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1781814.2386043773,
+            "unit": "ns/iter",
+            "extra": "iterations: 221\ncpu: 630527.7782805429 ns\nthreads: 1"
           }
         ]
       }
