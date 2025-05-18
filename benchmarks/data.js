@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747311997241,
+  "lastUpdate": 1747580657644,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -108718,6 +108718,54 @@ window.BENCHMARK_DATA = {
             "value": 1781814.2386043773,
             "unit": "ns/iter",
             "extra": "iterations: 221\ncpu: 630527.7782805429 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "doug.barker@gmail.com",
+            "name": "Doug Barker",
+            "username": "dbarker"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "b7e733334450f512012f77ac8e2a68a0bb0fd5be",
+          "message": "update the INSTALL doc to referece the trace target instead of the interface sdk target and add note about potential move of the etw and elasticsearch components (#3422)",
+          "timestamp": "2025-05-17T10:08:23-07:00",
+          "tree_id": "75601616aa6a0234c3ecb7df47e97fd5bc74a6a5",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/b7e733334450f512012f77ac8e2a68a0bb0fd5be"
+        },
+        "date": 1747580652544,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 17.99780943216394,
+            "unit": "ns/iter",
+            "extra": "iterations: 6871000\ncpu: 17.996518847329355 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 130.70195634788442,
+            "unit": "ns/iter",
+            "extra": "iterations: 1070000\ncpu: 128.70056822429908 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 938.0165411501515,
+            "unit": "ns/iter",
+            "extra": "iterations: 147000\ncpu: 934.3625034013608 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 1725813.7330880614,
+            "unit": "ns/iter",
+            "extra": "iterations: 223\ncpu: 623491.2600896858 ns\nthreads: 1"
           }
         ]
       }
