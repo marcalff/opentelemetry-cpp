@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783615596659,
+  "lastUpdate": 1783616120595,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -179206,6 +179206,84 @@ window.BENCHMARK_DATA = {
             "value": 2398469.603758088,
             "unit": "ns/iter",
             "extra": "iterations: 291\ncpu: 472207.50171821273 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "46298b6038e382427796a9ab3f46e091fc6a88a8",
+          "message": "Bump github/codeql-action/upload-sarif from 4.36.3 to 4.37.0 (#4227)\n\nBumps [github/codeql-action/upload-sarif](https://github.com/github/codeql-action) from 4.36.3 to 4.37.0.\n- [Release notes](https://github.com/github/codeql-action/releases)\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/github/codeql-action/compare/54f647b7e1bb85c95cddabcd46b0c578ec92bc1a...99df26d4f13ea111d4ec1a7dddef6063f76b97e9)\n\n---\nupdated-dependencies:\n- dependency-name: github/codeql-action/upload-sarif\n  dependency-version: 4.37.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-07-09T14:23:53+02:00",
+          "tree_id": "6efd66ea91c197f8db3359fff587bc449b3c7153",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/46298b6038e382427796a9ab3f46e091fc6a88a8"
+        },
+        "date": 1783616112880,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 15.449887320567157,
+            "unit": "ns/iter",
+            "extra": "iterations: 9054000\ncpu: 15.449028385244091 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 77.32527216053542,
+            "unit": "ns/iter",
+            "extra": "iterations: 1790000\ncpu: 77.31222569832403 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 537.307138936928,
+            "unit": "ns/iter",
+            "extra": "iterations: 251000\ncpu: 537.2406852589642 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 2349197.036690182,
+            "unit": "ns/iter",
+            "extra": "iterations: 288\ncpu: 484724.8854166667 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpSpanFixture/Minimal",
+            "value": 2449.1287846980326,
+            "unit": "ns/iter",
+            "extra": "iterations: 58875\ncpu: 2312.5028619958184 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpSpanFixture/Nominal",
+            "value": 3797.4940899310263,
+            "unit": "ns/iter",
+            "extra": "iterations: 44030\ncpu: 3318.4636157166237 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpSpanFixture/MaxAttributes",
+            "value": 31572.224688455095,
+            "unit": "ns/iter",
+            "extra": "iterations: 4458\ncpu: 30400.442126512375 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_PopulateRequest/span_count:1",
+            "value": 1.4881968537802468,
+            "unit": "us/iter",
+            "extra": "iterations: 105435\ncpu: 1.3730267653056372 us\nthreads: 1"
+          },
+          {
+            "name": "BM_PopulateRequest/span_count:512",
+            "value": 111.9264292792191,
+            "unit": "us/iter",
+            "extra": "iterations: 1268\ncpu: 103.61436356466878 us\nthreads: 1"
           }
         ]
       }
