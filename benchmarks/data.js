@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781604838573,
+  "lastUpdate": 1783615535436,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -158984,6 +158984,252 @@ window.BENCHMARK_DATA = {
             "value": 146.83390373172762,
             "unit": "ns/iter",
             "extra": "iterations: 966543\ncpu: 146.25200223890712 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "46298b6038e382427796a9ab3f46e091fc6a88a8",
+          "message": "Bump github/codeql-action/upload-sarif from 4.36.3 to 4.37.0 (#4227)\n\nBumps [github/codeql-action/upload-sarif](https://github.com/github/codeql-action) from 4.36.3 to 4.37.0.\n- [Release notes](https://github.com/github/codeql-action/releases)\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/github/codeql-action/compare/54f647b7e1bb85c95cddabcd46b0c578ec92bc1a...99df26d4f13ea111d4ec1a7dddef6063f76b97e9)\n\n---\nupdated-dependencies:\n- dependency-name: github/codeql-action/upload-sarif\n  dependency-version: 4.37.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-07-09T14:23:53+02:00",
+          "tree_id": "6efd66ea91c197f8db3359fff587bc449b3c7153",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/46298b6038e382427796a9ab3f46e091fc6a88a8"
+        },
+        "date": 1783615527517,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_AlwaysOffSamplerConstruction",
+            "value": 0.8983875046322183,
+            "unit": "ns/iter",
+            "extra": "iterations: 172130046\ncpu: 0.8299052450145746 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AlwaysOnSamplerConstruction",
+            "value": 0.9179634209702338,
+            "unit": "ns/iter",
+            "extra": "iterations: 163251810\ncpu: 0.9075235919283224 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AlwaysOffSamplerShouldSample",
+            "value": 27.02318695940534,
+            "unit": "ns/iter",
+            "extra": "iterations: 5244299\ncpu: 26.773319942283997 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AlwaysOnSamplerShouldSample",
+            "value": 27.886131820843588,
+            "unit": "ns/iter",
+            "extra": "iterations: 5132644\ncpu: 27.623594194337276 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_ParentBasedSamplerShouldSample",
+            "value": 33.972525829685964,
+            "unit": "ns/iter",
+            "extra": "iterations: 4093989\ncpu: 33.868675514272276 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_TraceIdRatioBasedSamplerShouldSample",
+            "value": 19.22184034262694,
+            "unit": "ns/iter",
+            "extra": "iterations: 7264571\ncpu: 19.196643132815414 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_SpanCreation",
+            "value": 928.2856635705647,
+            "unit": "ns/iter",
+            "extra": "iterations: 151933\ncpu: 925.2407376935885 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_NoopSpanCreation",
+            "value": 236.04647162048536,
+            "unit": "ns/iter",
+            "extra": "iterations: 591195\ncpu: 234.70875768570463 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AttributseHashMap",
+            "value": 32916098.833084106,
+            "unit": "ns/iter",
+            "extra": "iterations: 8\ncpu: 18148526.875 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_MeasurementsTest",
+            "value": 5695972.442626953,
+            "unit": "ns/iter",
+            "extra": "iterations: 100\ncpu: 36081.85000000001 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_MeasurementsThreadsShareCounterTest",
+            "value": 5411541.46194458,
+            "unit": "ns/iter",
+            "extra": "iterations: 100\ncpu: 181385.63 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_MeasurementsPerThreadCounterTest",
+            "value": 5361850.261688232,
+            "unit": "ns/iter",
+            "extra": "iterations: 100\ncpu: 164817.25000000003 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_SumAggregation",
+            "value": 6221363.94182841,
+            "unit": "ns/iter",
+            "extra": "iterations: 24\ncpu: 5785587.75 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AttributseProcessorFilter",
+            "value": 236.68541130265257,
+            "unit": "ns/iter",
+            "extra": "iterations: 612565\ncpu: 229.32185645604957 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_HistogramAggregation",
+            "value": 50.7098230822333,
+            "unit": "ns/iter",
+            "extra": "iterations: 2900000\ncpu: 49.88544586206898 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_Base2ExponentialHistogramAggregationZeroScale",
+            "value": 74.02634620666504,
+            "unit": "ns/iter",
+            "extra": "iterations: 2000000\ncpu: 70.29134649999999 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_Base2ExponentialHistogramAggregationOneScale",
+            "value": 85.49690246582031,
+            "unit": "ns/iter",
+            "extra": "iterations: 1700000\ncpu: 84.15395529411768 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_Base2ExponentialHistogramAggregationTwoScale",
+            "value": 84.53845977783203,
+            "unit": "ns/iter",
+            "extra": "iterations: 1700000\ncpu: 83.22340941176468 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_Base2ExponentialHistogramAggregationFourScale",
+            "value": 85.56842803955078,
+            "unit": "ns/iter",
+            "extra": "iterations: 1700000\ncpu: 84.59397823529406 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_Base2ExponentialHistogramAggregationEightScale",
+            "value": 89.62799521053539,
+            "unit": "ns/iter",
+            "extra": "iterations: 1700000\ncpu: 81.89161058823535 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_Base2ExponentialHistogramAggregationSixteenScale",
+            "value": 85.70418638341567,
+            "unit": "ns/iter",
+            "extra": "iterations: 1700000\ncpu: 84.4931164705882 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_NewIndexer",
+            "value": 12.444309474515958,
+            "unit": "ns/iter",
+            "extra": "iterations: 11290000\ncpu: 12.388671833480998 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_ComputeIndex/-1",
+            "value": 9.087407027479548,
+            "unit": "ns/iter",
+            "extra": "iterations: 15605000\ncpu: 9.060434283883271 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_ComputeIndex/0",
+            "value": 9.179745138305979,
+            "unit": "ns/iter",
+            "extra": "iterations: 15520000\ncpu: 9.062252384019928 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_ComputeIndex/1",
+            "value": 17.52117347069262,
+            "unit": "ns/iter",
+            "extra": "iterations: 8830000\ncpu: 15.987538844847595 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_ComputeIndex/20",
+            "value": 16.68237540433032,
+            "unit": "ns/iter",
+            "extra": "iterations: 8848000\ncpu: 16.063142405062656 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_BaselineBuffer/1",
+            "value": 3880965.4712677,
+            "unit": "ns/iter",
+            "extra": "iterations: 1000\ncpu: 57069.39300000001 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_BaselineBuffer/2",
+            "value": 3663996.5226497557,
+            "unit": "ns/iter",
+            "extra": "iterations: 1015\ncpu: 148723.5251231527 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_BaselineBuffer/4",
+            "value": 3574849.0205047824,
+            "unit": "ns/iter",
+            "extra": "iterations: 564\ncpu: 241883.9769503546 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_LockFreeBuffer/1",
+            "value": 2092547.89352417,
+            "unit": "ns/iter",
+            "extra": "iterations: 1000\ncpu: 58581.793999999965 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_LockFreeBuffer/2",
+            "value": 2222666.1843535085,
+            "unit": "ns/iter",
+            "extra": "iterations: 969\ncpu: 145553.86274509813 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_LockFreeBuffer/4",
+            "value": 2188715.574552687,
+            "unit": "ns/iter",
+            "extra": "iterations: 556\ncpu: 248447.3057553956 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_RandomIdGeneration",
+            "value": 6.086244281679203,
+            "unit": "ns/iter",
+            "extra": "iterations: 23215851\ncpu: 6.035992563873709 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_RandomIdStdGeneration",
+            "value": 3.795267680937387,
+            "unit": "ns/iter",
+            "extra": "iterations: 36299888\ncpu: 3.7528026257271097 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_Base64Escape",
+            "value": 151.5034162755698,
+            "unit": "ns/iter",
+            "extra": "iterations: 974512\ncpu: 139.48216748485396 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_Base64Unescape",
+            "value": 853.1276106593899,
+            "unit": "ns/iter",
+            "extra": "iterations: 174963\ncpu: 808.2133251030219 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_AttributeMapHash",
+            "value": 144.18346294427516,
+            "unit": "ns/iter",
+            "extra": "iterations: 1120213\ncpu: 127.97168752728275 ns\nthreads: 1"
           }
         ]
       }
