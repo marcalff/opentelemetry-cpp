@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785969024924,
+  "lastUpdate": 1785969829383,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -185344,6 +185344,132 @@ window.BENCHMARK_DATA = {
             "value": 2359552.321091197,
             "unit": "ns/iter",
             "extra": "iterations: 306\ncpu: 460435.98692810436 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordMinimalSpan",
+            "value": 2161.369145119931,
+            "unit": "ns/iter",
+            "extra": "iterations: 63005\ncpu: 2207.621918895377 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordNominalSpan",
+            "value": 3340.515889746227,
+            "unit": "ns/iter",
+            "extra": "iterations: 43181\ncpu: 3286.942845232958 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithAttributes/attribute_count:1",
+            "value": 2466.49351381242,
+            "unit": "ns/iter",
+            "extra": "iterations: 54246\ncpu: 2490.862349297443 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithAttributes/attribute_count:10",
+            "value": 4129.120398817197,
+            "unit": "ns/iter",
+            "extra": "iterations: 33317\ncpu: 4148.980010205126 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithAttributes/attribute_count:128",
+            "value": 25513.45603212034,
+            "unit": "ns/iter",
+            "extra": "iterations: 4468\ncpu: 24889.955684871024 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithEvents/event_count:1",
+            "value": 2801.323256761868,
+            "unit": "ns/iter",
+            "extra": "iterations: 48914\ncpu: 2856.0064603175883 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithEvents/event_count:10",
+            "value": 7316.668687411986,
+            "unit": "ns/iter",
+            "extra": "iterations: 19739\ncpu: 7312.134505294414 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithEvents/event_count:128",
+            "value": 67140.82899547758,
+            "unit": "ns/iter",
+            "extra": "iterations: 2100\ncpu: 67015.59666667068 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithLinks/link_count:1",
+            "value": 3756.6685699088266,
+            "unit": "ns/iter",
+            "extra": "iterations: 46596\ncpu: 3030.54736458111 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithLinks/link_count:10",
+            "value": 7744.8597117725,
+            "unit": "ns/iter",
+            "extra": "iterations: 18212\ncpu: 7758.4413024366795 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithLinks/link_count:128",
+            "value": 78146.23403209157,
+            "unit": "ns/iter",
+            "extra": "iterations: 1823\ncpu: 78033.30499177228 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpPopulateRequest/span_count:1",
+            "value": 1.6888363289747756,
+            "unit": "us/iter",
+            "extra": "iterations: 83001\ncpu: 1.6711424681630365 us\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpPopulateRequest/span_count:512",
+            "value": 113.74433930638692,
+            "unit": "us/iter",
+            "extra": "iterations: 1251\ncpu: 110.90520303756976 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "84045975+thc1006@users.noreply.github.com",
+            "name": "秀吉",
+            "username": "thc1006"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "a7da83e3798348b9da833eb828f5096944025aef",
+          "message": "[BUG] Report one outcome when a curl session is cancelled after the response arrives (#4363)",
+          "timestamp": "2026-08-05T22:15:58+02:00",
+          "tree_id": "5776472189eee197878f3d77b78843b533264a3e",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/a7da83e3798348b9da833eb828f5096944025aef"
+        },
+        "date": 1785969821169,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 15.274172594214223,
+            "unit": "ns/iter",
+            "extra": "iterations: 9113000\ncpu: 15.273503566333808 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 78.50741162712191,
+            "unit": "ns/iter",
+            "extra": "iterations: 1782000\ncpu: 78.50816554433221 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 565.825695972366,
+            "unit": "ns/iter",
+            "extra": "iterations: 249000\ncpu: 565.8310401606427 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 2452417.445264172,
+            "unit": "ns/iter",
+            "extra": "iterations: 293\ncpu: 479187.9590443686 ns\nthreads: 1"
           },
           {
             "name": "OtlpRecordableFixture/RecordMinimalSpan",
