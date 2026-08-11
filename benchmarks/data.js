@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786462981398,
+  "lastUpdate": 1786464683689,
   "repoUrl": "https://github.com/marcalff/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -186250,6 +186250,132 @@ window.BENCHMARK_DATA = {
             "value": 113.74433930638692,
             "unit": "us/iter",
             "extra": "iterations: 1251\ncpu: 110.90520303756976 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1279a7aa8476e2cda22d1038dc4d4ea863d43a5d",
+          "message": "Bump curl from 8.12.0.bcr.1 to 8.21.0 (#4401)\n\nBumps [curl](https://github.com/curl/curl) from 8.12.0.bcr.1 to 8.21.0.\n- [Release notes](https://github.com/curl/curl/releases)\n- [Changelog](https://github.com/curl/curl/blob/master/CHANGES.md)\n- [Commits](https://github.com/curl/curl/commits)\n\n---\nupdated-dependencies:\n- dependency-name: curl\n  dependency-version: 8.21.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-11T14:09:54Z",
+          "tree_id": "3c2dd6adb73b9922327eb88f5f7a315d1e2ed132",
+          "url": "https://github.com/marcalff/opentelemetry-cpp/commit/1279a7aa8476e2cda22d1038dc4d4ea863d43a5d"
+        },
+        "date": 1786464674896,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 15.214442473352676,
+            "unit": "ns/iter",
+            "extra": "iterations: 9102000\ncpu: 15.214469786860034 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 79.75258415060584,
+            "unit": "ns/iter",
+            "extra": "iterations: 1747000\ncpu: 79.74766857469947 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 577.3416005942717,
+            "unit": "ns/iter",
+            "extra": "iterations: 249000\ncpu: 577.3431325301204 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 2578833.920374355,
+            "unit": "ns/iter",
+            "extra": "iterations: 283\ncpu: 487528.28975265037 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordMinimalSpan",
+            "value": 2390.968022484283,
+            "unit": "ns/iter",
+            "extra": "iterations: 62327\ncpu: 2447.404816532156 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordNominalSpan",
+            "value": 3466.1673344373457,
+            "unit": "ns/iter",
+            "extra": "iterations: 38968\ncpu: 3534.247100184913 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithAttributes/attribute_count:1",
+            "value": 2818.914958463692,
+            "unit": "ns/iter",
+            "extra": "iterations: 49730\ncpu: 2818.9943695960465 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithAttributes/attribute_count:10",
+            "value": 4364.429914840231,
+            "unit": "ns/iter",
+            "extra": "iterations: 32406\ncpu: 4367.015892118152 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithAttributes/attribute_count:128",
+            "value": 25454.228202974653,
+            "unit": "ns/iter",
+            "extra": "iterations: 4287\ncpu: 25415.341964079118 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithEvents/event_count:1",
+            "value": 2906.7269071512183,
+            "unit": "ns/iter",
+            "extra": "iterations: 48942\ncpu: 2958.473560540836 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithEvents/event_count:10",
+            "value": 7713.654275345128,
+            "unit": "ns/iter",
+            "extra": "iterations: 18030\ncpu: 7603.824070992282 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithEvents/event_count:128",
+            "value": 70455.42188297534,
+            "unit": "ns/iter",
+            "extra": "iterations: 2051\ncpu: 70360.23354461553 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithLinks/link_count:1",
+            "value": 2977.43350346322,
+            "unit": "ns/iter",
+            "extra": "iterations: 45320\ncpu: 3013.750132391192 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithLinks/link_count:10",
+            "value": 8362.590382450395,
+            "unit": "ns/iter",
+            "extra": "iterations: 17662\ncpu: 8357.587079608344 ns\nthreads: 1"
+          },
+          {
+            "name": "OtlpRecordableFixture/RecordSpanWithLinks/link_count:128",
+            "value": 73775.11716994061,
+            "unit": "ns/iter",
+            "extra": "iterations: 1877\ncpu: 73738.3708044798 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpPopulateRequest/span_count:1",
+            "value": 1.6798095674209348,
+            "unit": "us/iter",
+            "extra": "iterations: 79155\ncpu: 1.6576713284062954 us\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpPopulateRequest/span_count:512",
+            "value": 114.64750928749189,
+            "unit": "us/iter",
+            "extra": "iterations: 1251\ncpu: 111.69405595523588 us\nthreads: 1"
           }
         ]
       }
